@@ -156,7 +156,7 @@ img {
      outline: 0;
 }
 
-.paddind_bottom_0 {
+.padding_bottom_0 {
      padding-bottom: 0 !important;
 }
 
@@ -223,14 +223,6 @@ button {
 
 .padding_0{ width: 100%; float: left; }
 
-.mens_taital{ width: 100%; float: left; color: #908d92; font-size: 14pt; }
-.mens_taital_2 {
-    width: 100%;
-    float: left;
-    color: #908d92;
-    font-size: 14pt;
-    margin-top: 150px;
-}
 .page_no {
     width: 28%;
     /* margin: 0 auto; */
@@ -258,7 +250,7 @@ button {
 }
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0.9rem;
-    padding-left: 1.6rem;
+    padding-left: 0.6rem;
 }
 
 	
@@ -286,10 +278,9 @@ button {
 }
 
 .buy_bt{ 
-	width: 10% !important;
+	width: 20% !important;
 	height: 50px;
-	color: #fffff;
-	background-color: #ff4e5b;
+    background-color: #ff4e5b;
 	color: #ffffff;
 	font-size: 16pt;
  }
@@ -361,9 +352,10 @@ body{
 }
 .carousel-indicators li{
     display:block; margin-bottom:5px; border:1px solid #00a199; 
-    margin-bottom: 5px;}
-    
+    margin-bottom: 5px;
+
 }
+
 .carousel-indicators li.active{
     margin-bottom:5px; background:#00a199;
     
@@ -397,6 +389,7 @@ body{
     background-color: #ffffff;
     height: auto;
     margin-left: 64px;
+    padding-bottom: 100px;
     box-shadow: 0px 0px 10px 0px;
     position: relative;
     z-index: 1;
@@ -409,16 +402,22 @@ body{
 	text-align: center;
 	color: #ffffff;
 	height: 50px;
-	margin-left: -60px;
+	margin-left: 0px;
 }
 
 .shoes-img{
 	width: 100%;
 	float: left;
 	text-align: center;
-	padding-top: 40px;
+	padding-top: 20px;
 	padding-bottom: 40px;
 	margin: 0px;
+}
+
+#carousel_2nd_image{
+    width: 150%;
+    padding-top: 50px;
+    padding-bottom: 140px;
 }
 
 .sport_text {
@@ -437,7 +436,7 @@ body{
 	color: #000;
 	font-size: 20pt;
 }
-.star_icon{ width: 25%; margin: 0 auto; text-align: center; }
+.star_icon{ width: 25%; margin: 0 auto; padding-left: 10px; text-align: center; }
 .star_icon ul{ margin: 0px; padding: 0px;} 
 .star_icon li{ float:left; padding-right:10px; padding-bottom: 25px;}
 
@@ -452,7 +451,7 @@ body{
 }
 
 
-.shoes_img{ width: 100%; float: left; padding-top: 30px; }
+/* .shoes_img{ width: 100%; float: left; padding-top: 30px; } */
 
 .shoes-img2{
 	width: 100%;
@@ -474,7 +473,12 @@ body{
     margin-bottom: 90px;
 }
 
-.collectipn_section_3{ width: 100%; float: left; padding-top: 0px;}
+.collectipn_section_3{
+    width: 100%;
+    float: left;
+    padding-top: 0px;
+}
+
 .racing_shoes {
     width: 100%;
     float: left;
@@ -529,6 +533,11 @@ body{
 	float: left;
 	background-color: #ff4e5b;
 	height: auto;
+
+}
+.best_shoe_box{
+    display: flex;
+    width: 33%;
 
 }
 
@@ -613,7 +622,7 @@ body{
 
 }
 
-.massage-bt {
+.message-bt {
     border: 1px solid #000;
     color: #000000;
     width: 100%;
@@ -636,7 +645,7 @@ body{
     color: #ffffff;
 }
 .ram{
-	width: 100%; 
+	width: 100%;
 	float: left;
 }
 
@@ -645,22 +654,26 @@ a:hover {
 }
 
 .shop_banner{
-	width: 100%;
-	float: left;
-	background-image: url(../images/shop-banner.png);
-	height: auto;
-	padding: 70px;
+	width: 85%;
+    float: left;
+    background-color: #ff4e5b;
+    height: auto;
+    padding: 8px 40px 38px 0px;
 }
 
 .our_shop {
+    background-image: url(../images/shop-banner.png);
+    background-size: auto;
     width: 100%;
     float: left;
-    padding-top: 205px;
+    padding-top: 220px;
     padding-bottom: 205px;
+    padding-left: 30px;
+
 }
 .out_shop_bt {
     width: 40%;
-    margin: 0 auto;
+    margin: auto;
     background-color: #ffffff;
     color: #131111;
     text-align: center;
@@ -774,7 +787,7 @@ a:hover {
     background-color: #ff4e5b;
     font-size: 13pt;
     height: 50px;
-    color: rgb(0 0 0 / 1%);;
+    color: rgb(0 0 0);
 }
 
 

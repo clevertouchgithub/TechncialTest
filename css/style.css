@@ -221,7 +221,10 @@ button {
 	background-repeat: no-repeat;
 }
 
-.padding_0{ width: 100%; float: left; }
+.padding_0{ 
+    width: 100%;
+    float: left;
+ }
 
 .mens_taital{ width: 100%; float: left; color: #908d92; font-size: 14pt; }
 .mens_taital_2 {
@@ -258,7 +261,6 @@ button {
 }
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0.9rem;
-    padding-left: 1.6rem;
 }
 
 	
@@ -286,12 +288,12 @@ button {
 }
 
 .buy_bt{ 
-	width: 10% !important;
 	height: 50px;
-	color: #fffff;
+	color: #ffffff;
 	background-color: #ff4e5b;
 	color: #ffffff;
 	font-size: 16pt;
+    width: 30%;
  }
 
  .more_bt{
@@ -361,12 +363,11 @@ body{
 }
 .carousel-indicators li{
     display:block; margin-bottom:5px; border:1px solid #00a199; 
-    margin-bottom: 5px;}
-    
+    margin-bottom: 5px;
 }
+
 .carousel-indicators li.active{
-    margin-bottom:5px; background:#00a199;
-    
+    margin-bottom:5px; background:#00a199;  
 }
 
 .collection_section{ width: 100%; float: left; padding-bottom: 0px; }
@@ -395,7 +396,7 @@ body{
 .about-img {
     width: 100%;
     background-color: #ffffff;
-    height: auto;
+    height: 65vh;
     margin-left: 64px;
     box-shadow: 0px 0px 10px 0px;
     position: relative;
@@ -409,7 +410,6 @@ body{
 	text-align: center;
 	color: #ffffff;
 	height: 50px;
-	margin-left: -60px;
 }
 
 .shoes-img{
@@ -447,12 +447,16 @@ body{
 	background-image: url(../images/about-img2.png);
 	height: auto;
 	box-shadow: 0px 0px 10px 0px;
-	margin-left: -50px;
+	margin-left: 0px;
     margin-top: 74px;
 }
 
 
-.shoes_img{ width: 100%; float: left; padding-top: 30px; }
+.shoes_img{ 
+    width: 100%;
+    float: left;
+    padding-top: 30px; 
+}
 
 .shoes-img2{
 	width: 100%;
@@ -604,6 +608,8 @@ body{
     height: auto;
     padding: 20px 20px;
     opacity: 0.80;
+    height: 100%;
+    border-radius: 5px;
 }
 .form-group {
     margin-bottom: 2rem;
@@ -650,6 +656,7 @@ a:hover {
 	background-image: url(../images/shop-banner.png);
 	height: auto;
 	padding: 70px;
+    background-repeat: no-repeat;
 }
 
 .our_shop {
@@ -769,12 +776,12 @@ a:hover {
 }
 
 .subscribr_bt {
-    width: 80%;
+    width: 99%;
     float: right;
     background-color: #ff4e5b;
     font-size: 13pt;
     height: 50px;
-    color: rgb(0 0 0 / 1%);;
+    color: white;
 }
 
 

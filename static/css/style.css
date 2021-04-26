@@ -777,6 +777,15 @@ a:hover {
     padding-bottom: 30px;
 }
 
+.site-notices {
+    cursor: pointer;
+    color: #FFF;
+}
+
+.site-notices:hover {
+    color: #FF4E58;
+}
+
 .mail-section {
     width: 100%;
     float: left;

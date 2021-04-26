@@ -24,21 +24,23 @@
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
 * {
-     box-sizing: border-box !important;
-     transition: ease all 0.5s;
+    box-sizing: border-box !important;
+    transition: ease all 0.5s;
 }
 
 html {
-     scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-     color: #666666;
-     font-size: 14px;
-     font-family: Poppins;
-     line-height: 1.80857;
-     font-weight: normal;
-     overflow-x: hidden;
+    color: #666666;
+    font-size: 14px;
+    font-family: Poppins;
+    line-height: 1.80857;
+    font-weight: normal;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
 }
 
 a {
@@ -89,15 +91,15 @@ h5 {
 }
 
 h6 {
-     font-size: 13px
+    font-size: 13px
 }
 
 *,
 *::after,
 *::before {
-     -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 h1 a,
@@ -106,119 +108,111 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-     color: #212121;
-     text-decoration: none!important;
-     opacity: 1
+    color: #212121;
+    text-decoration: none!important;
+    opacity: 1
 }
 
 button:focus {
-     outline: none;
+    outline: none;
 }
 
 ul,
 li,
 ol {
-     margin: 0px;
-     padding: 0px;
-     list-style: none;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
 }
 
 p {
-     margin: 20px;
-     font-weight: 300;
-     font-size: 15px;
-     line-height: 24px;
+    margin: 20px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
 }
 
 a {
-     color: #222222;
-     text-decoration: none;
-     outline: none !important;
+    color: #222222;
+    text-decoration: none;
+    outline: none !important;
 }
 
 a,
 .btn {
-     text-decoration: none !important;
-     outline: none !important;
-     -webkit-transition: all .3s ease-in-out;
-     -moz-transition: all .3s ease-in-out;
-     -ms-transition: all .3s ease-in-out;
-     -o-transition: all .3s ease-in-out;
-     transition: all .3s ease-in-out;
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 img {
-     max-width: 100%;
-     height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
  :focus {
-     outline: 0;
+    outline: 0;
 }
 
 .paddind_bottom_0 {
-     padding-bottom: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .btn-custom {
-     margin-top: 20px;
-     background-color: transparent !important;
-     border: 2px solid #ddd;
-     padding: 12px 40px;
-     font-size: 16px;
+    margin-top: 20px;
+    background-color: transparent !important;
+    border: 2px solid #ddd;
+    padding: 12px 40px;
+    font-size: 16px;
 }
 
 .lead {
-     font-size: 18px;
-     line-height: 30px;
-     color: #767676;
-     margin: 0;
-     padding: 0;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767676;
+    margin: 0;
+    padding: 0;
 }
 
 .form-control:focus {
-     border-color: #ffffff !important;
-     box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
+    border-color: #ffffff !important;
+    box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
 }
 
 .navbar-form input {
-     border: none !important;
+    border: none !important;
 }
 
 .badge {
-     font-weight: 500;
+    font-weight: 500;
 }
 
 blockquote {
-     margin: 20px 0 20px;
-     padding: 30px;
+    margin: 20px 0 20px;
+    padding: 30px;
 }
 
 button {
-     border: 0;
-     margin: 0;
-     padding: 0;
-     cursor: pointer;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
 }
 
 .full {
-     float: left;
-     width: 100%;
-}
-
-.header-section {
-	width: 100%;
-	float: left;
-	background-image: url(../images/banner.png);
-	height: auto;
-	padding: 20px 0px;
-	background-size: 100%;
-	background-repeat: no-repeat;
+    float: left;
+    width: 100%;
 }
 
 .bg-light {
     background-color: transparent !important;
 }
+
+/*---------------- Navbar ----------------*/
 
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
@@ -236,11 +230,6 @@ button {
 	
 .last {
     padding-left: 30px !important;
-}
-
-body {
-    width: 100%;
-    height: 100%;
 }
 
 /*------------------------------ vertical bootstrap slider----------------------------*/
@@ -503,6 +492,16 @@ body {
 
 /*-------------- Images --------------*/
 
+.header-section {
+	width: 100%;
+	float: left;
+	background-image: url(../images/banner.png);
+	height: auto;
+	padding: 20px 0px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
 .about-img2 {
 	width: 100%;
 	float: left;
@@ -660,14 +659,7 @@ body {
 	float: left;
 }
 
-.email_box {
-    width: 85%;
-    float: right;
-    background-color: #14120e;
-    height: auto;
-    padding: 20px 20px;
-    opacity: 0.80;
-}
+
 
 /*---------- Forms ----------*/
 
@@ -684,6 +676,15 @@ a:hover {
     float: left;
     padding-top: 205px;
     padding-bottom: 205px;
+}
+
+.email-box {
+    width: 85%;
+    float: right;
+    background-color: #14120e;
+    height: auto;
+    padding: 20px 20px;
+    opacity: 0.80;
 }
 
 /*--------------- Buttons --------------*/

@@ -498,16 +498,6 @@ button {
 	background-repeat: no-repeat;
 }
 
-.about-img2 {
-	width: 100%;
-	float: left;
-	background-image: url(../images/about-img2.png);
-	height: auto;
-	box-shadow: 0px 0px 10px 0px;
-	margin-left: -50px;
-    margin-top: 74px;
-}
-
 .shoes-img {
     width: 100%;
     float: left;
@@ -540,11 +530,21 @@ button {
 .about-img {
     width: 100%;
     background-color: #ffffff;
-    height: auto;
+    height: 75%;
     margin-left: 64px;
     box-shadow: 0px 0px 10px 0px;
     position: relative;
     z-index: 1;
+}
+
+.about-img2 {
+	width: 100%;
+	float: left;
+	background-image: url(../images/about-img2.png);
+	height: auto;
+	box-shadow: 0px 0px 10px 0px;
+	margin-left: -50px;
+    margin-top: 74px;
 }
 
 .shoes-img {

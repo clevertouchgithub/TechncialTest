@@ -302,7 +302,7 @@ button {
 }
 
 .buy-btn { 
-	width: 10%;
+	width: 30%;
 	height: 50px;
 	background-color: #ff4e5b;
 	color: #ffffff;
@@ -748,7 +748,7 @@ a:hover {
     display: block;
 }
 
-/*--------------- Footer --------------- */
+/*--------------- Footer ---------------*/
 
 .section-footer {
     width: 100%;

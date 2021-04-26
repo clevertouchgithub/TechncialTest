@@ -365,5 +365,8 @@ $(function () {
 		interval: 5000
 	});
 
+	/* Copyright Years 
+	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+	$('#copyright-years').text(+ new Date().getFullYear());
 
 });

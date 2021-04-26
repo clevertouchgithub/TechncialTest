@@ -659,8 +659,6 @@ button {
 	float: left;
 }
 
-
-
 /*---------- Forms ----------*/
 
 .form-group {
@@ -886,10 +884,4 @@ a:hover {
     width: 100%;
     float: left;
     padding-bottom: 30px;
-}
-
-.header_main {
-    width: 100%;
-    height: auto;
-    background: #0c0116;
 }

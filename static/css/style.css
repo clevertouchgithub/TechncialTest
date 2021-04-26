@@ -206,12 +206,7 @@ button {
      width: 100%;
 }
 
-.layout_padding {
-     padding-top: 90px;
-     padding-bottom: 90px;
-}
-
-.header_section {
+.header-section {
 	width: 100%;
 	float: left;
 	background-image: url(../images/banner.png);
@@ -336,9 +331,13 @@ body {
     background-size:cover;
 }
 
-.slide-wrapper{display:inline;}
-.slide-wrapper .container{padding:0;}
+.slide-wrapper {
+    display:inline;
+}
 
+.slide-wrapper .container {
+    padding:0;
+}
 
 /*------------------------------ vertical bootstrap slider----------------------------*/
 
@@ -401,10 +400,26 @@ body {
     background: #00a199;
 }
 
-.collection_section {
+.layout-padding {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.collection-section {
     width: 100%;
     float: left;
     padding-bottom: 0px;
+}
+
+.collection-section-2 {
+	width: 100%;
+	float: left;
+}
+
+.collection-section-3 {
+    width: 100%;
+    float: left;
+    padding-top: 0px;
 }
 
 .new_text {
@@ -422,11 +437,6 @@ body {
 	font-weight: 400;
 	margin-left: 0px;
     padding-bottom: 30px;
-}
-
-.collection_section_2 {
-	width: 100%;
-	float: left;
 }
 
 .about-img {
@@ -520,12 +530,6 @@ body {
 	margin: 0px
 }
 
-.collectipn_section_3 {
-    width: 100%;
-    float: left;
-    padding-top: 0px;
-}
-
 .racing_shoes {
     width: 100%;
     float: left;
@@ -596,7 +600,7 @@ body {
 	height: auto;
 }
 
-.best_shoes {
+.best-shoes {
     width: 100%;
     float: left;
     background-color: #ffffff;
@@ -606,7 +610,7 @@ body {
     margin-bottom: 15px;
 }
 
-.best_text {
+.best-text {
 	width: 100%;
 	float: left;
 	font-size: 14pt;

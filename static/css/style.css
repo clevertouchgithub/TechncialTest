@@ -633,6 +633,8 @@ body {
 	margin-top: 35px;
 }
 
+/* ------------ Containers ------------ */
+
 .contact-section {
 	width: 100%;
 	float: left;
@@ -791,10 +793,6 @@ a:hover {
     float: left;
     font-size: 12pt;
     color: #fdfefe;
-}
-
-.social-icon {
-    flex-direction: row;
 }
 
 .footer_section_2 {

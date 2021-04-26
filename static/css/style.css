@@ -285,24 +285,22 @@ button {
 	margin-left: 0px;
 }
 
-.buy_bt{ 
-	width: 10% !important;
+.buy-btn { 
+	width: 10%;
 	height: 50px;
-	color: #fffff;
 	background-color: #ff4e5b;
 	color: #ffffff;
 	font-size: 16pt;
- }
+}
 
- .more_bt{
+.more-btn {
 	width: 32%;
 	height: 50px;
-	color: #ffffff;
 	background-color: #ffffff;
 	color: #ff4e5b;
 	font-size: 16pt;
 	margin-left: 25px;
- }
+}
 
 .banner_taital{
 	width: 100%;
@@ -314,12 +312,14 @@ body{
     width:100%;
     height:100%;
 }
+
 .carousel-inner,.carousel,.carousel-item,.container,.fill {
     height:100%;
     width:100%;
     background-position:center center;
     background-size:cover;
 }
+
 .slide-wrapper{display:inline;}
 .slide-wrapper .container{padding:0;}
 
@@ -344,7 +344,8 @@ body{
 }
 
 /*------------------------------- vertical carousel indicators ------------------------------*/
-.carousel-indicators{
+
+.carousel-indicators {
     position:absolute;
     top:0;
     bottom:0;
@@ -359,14 +360,16 @@ body{
     -o-transform: rotate(90deg);
     transform: rotate(90deg);
 }
-.carousel-indicators li{
-    display:block; margin-bottom:5px; border:1px solid #00a199; 
-    margin-bottom: 5px;}
-    
+
+.carousel-indicators li {
+    display:block;
+    margin-bottom:5px;
+    border:1px solid #00a199; 
 }
+
 .carousel-indicators li.active{
-    margin-bottom:5px; background:#00a199;
-    
+    margin-bottom: 5px;
+    background: #00a199;
 }
 
 .collection_section{ width: 100%; float: left; padding-bottom: 0px; }
@@ -377,7 +380,7 @@ body{
 	color: #0c0116;
 }
 
-.consectetur_text{
+.consectetur_text {
 	width: 100%;
 	float: left;
 	font-size: 14pt;
@@ -387,7 +390,7 @@ body{
     padding-bottom: 30px;
 }
 
-.collection_section_2{
+.collection_section_2 {
 	width: 100%;
 	float: left;
 }
@@ -401,7 +404,8 @@ body{
     position: relative;
     z-index: 1;
 }
-.new_bt{
+
+.new-btn {
 	width: 18%;
 	float: left;
 	background-color: #000;
@@ -412,7 +416,7 @@ body{
 	margin-left: -60px;
 }
 
-.shoes-img{
+.shoes-img {
 	width: 100%;
 	float: left;
 	text-align: center;
@@ -430,18 +434,20 @@ body{
     border-bottom: 1px solid#000;
     margin: 0 auto;
 }
-.dolar_text{
+
+.dolar_text {
 	width: 100%;
 	float: left;
 	text-align:center;
 	color: #000;
 	font-size: 20pt;
 }
+
 .star_icon{ width: 25%; margin: 0 auto; text-align: center; }
 .star_icon ul{ margin: 0px; padding: 0px;} 
 .star_icon li{ float:left; padding-right:10px; padding-bottom: 25px;}
 
-.about-img2{
+.about-img2 {
 	width: 100%;
 	float: left;
 	background-image: url(../images/about-img2.png);
@@ -454,7 +460,7 @@ body{
 
 .shoes_img{ width: 100%; float: left; padding-top: 30px; }
 
-.shoes-img2{
+.shoes-img2 {
 	width: 100%;
 	float: left;
 	text-align: center;
@@ -463,12 +469,11 @@ body{
 	margin: 0px
 }
 
-.seemore_bt{
+.see-more-btn {
 	width: 32%;
 	height: 50px;
 	color: #ffffff;
 	background-color: #ff4e5b;
-	color: #ffffff;
 	font-size: 16pt;	
 	margin-top: 35px;
     margin-bottom: 90px;
@@ -484,9 +489,10 @@ body{
     background-size: 100%;
     padding-bottom: 70px;
 }
+
 .shoes-img3{ width: 100%; float: left; text-align: center; }
 
-.collection_text{ 
+.collection_text { 
     width: 100%; 
     float: left; 
     color: #ffffff; 
@@ -497,7 +503,7 @@ body{
     padding: 30px 0px;  
 }
 
-.sale_text{
+.sale_text {
 	width: 100%;
 	float: left;
 	font-size: 45pt;
@@ -505,16 +511,15 @@ body{
 	line-height: 75px;
 }
 
-.number_text{
+.number_text {
 	width: 100%;
 	float: left;
 	font-size: 45pt;
 	color: #ed2540;
 	line-height: 75px;
-
 }
 
-.seemore{
+.seemore {
 	width: 50%;
 	height: 50px;
 	color: #ffffff;
@@ -524,12 +529,11 @@ body{
 	margin-top: 35px;
 }
 
-.gallery_section{
+.gallery_section {
 	width: 100%;
 	float: left;
 	background-color: #ff4e5b;
 	height: auto;
-
 }
 
 .best_shoes {
@@ -542,7 +546,7 @@ body{
     margin-bottom: 15px;
 }
 
-.best_text{
+.best_text {
 	width: 100%;
 	float: left;
 	font-size: 14pt;
@@ -550,17 +554,19 @@ body{
 	text-align: center;
     margin-left: 0px;
 }
-.shoes_icon{
+
+.shoes_icon {
 	width: 100%;
 	float: left;
 	text-align: center;
 	min-height: 220px;
 }
 
-.star_text{
+.star_text {
 	width: 100%;
 	float: left;
 }
+
 .left_part {
     width: 60%;
     float: left;
@@ -578,22 +584,22 @@ body{
 	text-align: right;
 }
 
-.buy_now_bt{
+.buy-now-btn {
 	width: 50%;
 	margin: 0 auto;
 	text-align: center;
 }
-.buy_text{
+
+.buy-text {
 	width: 32%;
 	height: 50px;
 	color: #ffffff;
 	background-color: #131111;
-	color: #ffffff;
 	font-size: 16pt;	
 	margin-top: 35px;
 }
 
-.contact_section{
+.contact_section {
 	width: 100%;
 	float: left;
 }
@@ -609,11 +615,7 @@ body{
     margin-bottom: 2rem;
 }
 
-.email-bt {
-
-}
-
-.message-bt {
+.message-container {
     border: 1px solid #000;
     color: #000000;
     width: 100%;
@@ -622,12 +624,12 @@ body{
     padding: 70px 20px 10px 20px;
 }
 
-.send_btn {
+.send-btn {
     width: 100%;
     margin: 0 auto;
     text-align: center;
 }
-.main_bt {
+.main-btn {
     background: #ff4e5b;
     border: none;
     width: 170px;
@@ -644,7 +646,7 @@ a:hover {
     color: #fff;
 }
 
-.shop_banner{
+.shop-banner{
 	width: 100%;
 	float: left;
 	background-image: url(../images/shop-banner.png);
@@ -652,13 +654,13 @@ a:hover {
 	padding: 70px;
 }
 
-.our_shop {
+.our-shop {
     width: 100%;
     float: left;
     padding-top: 205px;
     padding-bottom: 205px;
 }
-.out_shop_bt {
+.our-shop-btn {
     width: 40%;
     margin: 0 auto;
     background-color: #ffffff;

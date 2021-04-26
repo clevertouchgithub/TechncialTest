@@ -216,19 +216,14 @@ button {
 	background-repeat: no-repeat;
 }
 
-.padding_0 {
-    width: 100%;
-    float: left;
-}
-
-.mens_taital {
+.mens-title {
     width: 100%;
     float: left;
     color: #908d92;
     font-size: 14pt;
 }
 
-.mens_taital_2 {
+.mens-title-2 {
     width: 100%;
     float: left;
     color: #908d92;
@@ -236,7 +231,7 @@ button {
     margin-top: 150px;
 }
 
-.page_no {
+.page-no {
     width: 28%;
     /* margin: 0 auto; */
     text-align: center;
@@ -872,7 +867,7 @@ a:hover {
 	color: #ffffff;
 }
 
-.enter_email {
+.enter-email {
     border: 1px solid #000;
     color: #000000;
     width: 100%;

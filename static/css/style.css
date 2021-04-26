@@ -158,10 +158,6 @@ img {
     outline: 0;
 }
 
-.paddind_bottom_0 {
-    padding-bottom: 0 !important;
-}
-
 .btn-custom {
     margin-top: 20px;
     background-color: transparent !important;
@@ -560,17 +556,6 @@ button {
 	margin: 0px;
 }
 
-.collection_text { 
-    width: 100%; 
-    float: left; 
-    color: #ffffff; 
-    text-align: center; 
-    font-weight: bold; 
-    font-size: 40px; 
-    background-color: #db5660;
-    padding: 30px 0px;  
-}
-
 .see-more {
 	width: 50%;
 	height: 50px;
@@ -825,7 +810,7 @@ a:hover {
     padding-top: 6px;
 }
 
-.pet_text {
+.pet-text {
     font-size: 12pt;
     color: #ffffff;
     padding-left: 16px;
@@ -834,7 +819,7 @@ a:hover {
     position: relative;
 }
 
-.adderess-text {
+.address-text {
     width: 100%;
     float: left;
     font-size: 28px;
@@ -860,10 +845,6 @@ a:hover {
     color: #000;
 }
 
-.map_text {
-    padding-left: 15px;
-}
-
 .delivery-text {
 	width: 100%;
 	float: left;
@@ -878,10 +859,4 @@ a:hover {
     height: 44px;
     font-size: 14px;
     padding: 20px;
-}
-
-.about_main {
-    width: 100%;
-    float: left;
-    padding-bottom: 30px;
 }

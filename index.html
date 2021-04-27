@@ -400,25 +400,21 @@
                 <div class="col-md-4">
                     <div class="email-box">
                         <div class="container">
-                            <form action="/action_page.php" onsubmit="return sendMail(this);" method='POST'>
+                            <form onsubmit="return sendMail(this);" method="POST">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Full Name" id="fullname" name="Name" required/ >
+                                    <input type="text" name="name" class="form-control" id="full name" placeholder="Full Name" required/>
                                 </div>
                                 <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Phone Number" id="phonenumber" name="Phone" required/ >
+                                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Enter an MS Outlook Email address" required/>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Email" id="emailaddress" name="Email" required/ >
+                                    <textarea rows="5" name="commentsrequest" class="form-control" id="comments" placeholder="Comments..."></textarea>
                                 </div>
-
-                                <div class="form-group">
-                                    <textarea class="message-container" placeholder="Message..." rows="5" id="comment" name="Message" requireed/ ></textarea>
-                                </div>
-                        </div>
                                 <div class="send-btn">
                                     <button type="submit" class="main-btn">Send</button>
                                 </div>
                             </form>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-8">
@@ -520,9 +516,9 @@
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <!-- Javascript Email File -->
+    <!-- Javascript Email File & Script tags -->
     <script src="static/js/sendEmail.js"></script>
-    
+      
       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
       <script type="text/javascript">
             (function(){
@@ -530,6 +526,9 @@
             })();
       </script>
       
+      
+    <!-- End Javascript Email File & Script tags --> 
+    <!-- JS carousel script tags -->  
       <script>
          
         $('#myCarousel').carousel({
@@ -556,5 +555,6 @@
             });
         });
       </script> 
+      <!-- End JS carousel script tags -->  
    </body>
 </html>

@@ -34,9 +34,10 @@ html {
 
 body {
     color: #666666;
-    font-size: 14px;
+    /* Black with 48% Opacity */
+    font-size: 0.875rem;
     font-family: Poppins;
-    line-height: 1.80857;
+    line-height: 1.80857rem;
     font-weight: normal;
     overflow-x: hidden;
     width: 100%;
@@ -45,6 +46,7 @@ body {
 
 a {
      color: #1f1f1f;
+     /* Black with 12% Opacity */
      text-decoration: none !important;
      outline: none !important;
      -webkit-transition: all .3s ease-in-out;
@@ -63,35 +65,36 @@ h6 {
      letter-spacing: 0;
      font-weight: normal;
      position: relative;
-     padding: 0 0 10px 0;
+     padding: 0 0 0.625rem 0;
      font-weight: normal;
      line-height: normal;
      color: #111111;
+     /* Black with 7% Opacity */
      margin: 0
 }
 
 h1 {
-     font-size: 24px
+     font-size: 1.5rem;
 }
 
 h2 {
-     font-size: 22px
+     font-size: 1.375rem;
 }
 
 h3 {
-     font-size: 18px
+     font-size: 1.125rem;
 }
 
 h4 {
-     font-size: 16px
+     font-size: 1rem;
 }
 
 h5 {
-     font-size: 14px
+     font-size: 0.875rem;
 }
 
 h6 {
-    font-size: 13px
+    font-size: 0.8125rem;
 }
 
 *,
@@ -109,6 +112,7 @@ h4 a,
 h5 a,
 h6 a {
     color: #212121;
+    /* Black with 13% Opacity */
     text-decoration: none!important;
     opacity: 1
 }
@@ -120,20 +124,21 @@ button:focus {
 ul,
 li,
 ol {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
 p {
-    margin: 20px;
+    margin: 1.25rem;
     font-weight: 300;
-    font-size: 15px;
-    line-height: 24px;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
 }
 
 a {
     color: #222222;
+    /* Black with 13% Opacity */
     text-decoration: none;
     outline: none !important;
 }
@@ -159,23 +164,26 @@ img {
 }
 
 .btn-custom {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     background-color: transparent !important;
     border: 2px solid #ddd;
-    padding: 12px 40px;
-    font-size: 16px;
+    /* Border - Black with 87% Opacity */
+    padding: 0.75rem 2.5rem;
+    font-size: 1rem;
 }
 
 .lead {
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
     color: #767676;
+    /* Black with 46% Opacity */
     margin: 0;
     padding: 0;
 }
 
 .form-control:focus {
     border-color: #ffffff !important;
+    /* Border colour White */
     box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
 }
 
@@ -188,8 +196,8 @@ img {
 }
 
 blockquote {
-    margin: 20px 0 20px;
-    padding: 30px;
+    margin: 1.25rem 0 1.25rem;
+    padding: 1.875rem;
 }
 
 button {
@@ -207,11 +215,13 @@ button {
 
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
+    /* White */
     font-size: 16pt;
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: #db5660;
+    /* Salmon Pink */
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -220,7 +230,7 @@ button {
 }
 	
 .last {
-    padding-left: 30px !important;
+    padding-left: 1.875rem !important;
 }
 
 /*------------------------------ vertical bootstrap slider----------------------------*/
@@ -262,10 +272,10 @@ button {
     top:0;
     bottom:0;
     margin:auto;
-    height:20px;
-    right:-84px; 
-    left:auto;
-    width:auto;
+    height: 1.25rem;
+    right: -5.25rem; 
+    left: auto;
+    width: auto;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
@@ -274,14 +284,16 @@ button {
 }
 
 .carousel-indicators li {
-    display:block;
-    margin-bottom:5px;
-    border:1px solid #00a199; 
+    display: block;
+    margin-bottom: 0.3125rem;
+    border: 1px solid #00a199; 
+    /* Border - Teal */
 }
 
 .carousel-indicators li.active{
     margin-bottom: 5px;
     background: #00a199;
+    /* Border - Teal */
 }
 
 /*------- Carousel Formatting -------*/
@@ -308,22 +320,23 @@ button {
 
 .page-no {
     width: 28%;
-    /* margin: 0 auto; */
     text-align: center;
     color: #ffffff;
-    border: 2px solid #8d8791;
-    border-radius: 30px;
-    margin-top: 150px;
-    padding-bottom: 10px;
+    /* White */
+    border: 2px solid #FF4E5B;
+    /* Border - Salmon Pink */
+    border-radius: 1.875rem;
+    margin-top: 9.375rem;
+    padding-bottom: 0.625rem;
     display: inline-block;
-    padding-top: 12px;
-    margin-left: 30px;
+    padding-top: 0.75rem;
+    margin-left: 1.875rem;
 }
 
 .banner-title {
 	width: 100%;
 	float: left;
-	margin-top: 85px;
+	margin-top: 5.3125rem;
 }
 
 .banner-text {
@@ -331,6 +344,7 @@ button {
 	float: left;
 	font-size: 30pt;
 	color: #db5660;
+	/* Salmon Pink */
 }
 
 .mens-text {
@@ -338,7 +352,8 @@ button {
 	float: left;
 	font-size: 39pt;
 	color: #fdfcfc;
-	line-height: 40px;
+	/* Faint Pink */
+	line-height: 2.5rem;
 }
 
 .lorem-text {
@@ -346,7 +361,8 @@ button {
 	float: left;
 	font-size: 13pt;
 	color: #fefefe;
-	margin-left: 0px;
+	/* Almost White */
+	margin-left: 0;
 }
 
 /*------------- New Collections ------------*/
@@ -356,6 +372,7 @@ button {
 	float: left;
 	font-size: 24pt;
 	color: #0c0116;
+	/* Dark Purple with 5% Opacity */
 }
 
 .consectetur-text {
@@ -363,18 +380,21 @@ button {
 	float: left;
 	font-size: 14pt;
 	color: #0c0116;
+	/* Dark Purple with 5% Opacity */ 
 	font-weight: 400;
-	margin-left: 0px;
-    padding-bottom: 30px;
+	margin-left: 0;
+    padding-bottom: 1.875rem;
 }
 
 .sport-text {
     width: 24%;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 1.875rem;
     font-size: 16pt;
     color: #0c0116;
+    /* Dark Purple with 5% Opacity */
     border-bottom: 1px solid #000;
+    /* Border bottom - Black */
     margin: 0 auto;
 }
 
@@ -383,6 +403,7 @@ button {
 	float: left;
 	text-align: center;
 	color: #000;
+	/* Black */
 	font-size: 20pt;
 }
 
@@ -393,24 +414,25 @@ button {
 }
 
 .star-icon ul {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 } 
 
 .star-icon li {
     float: left;
-    padding-right: 10px;
-    padding-bottom: 25px;
+    padding-right: 0.625rem;
+    padding-bottom: 1.5625rem;
 }
 
 .racing-shoes {
     width: 100%;
     float: left;
     background-color: #eae7e7;
+    /* Black with 91% Opacity */
     height: auto;
-    padding-top: 70px;
+    padding-top: 4.375rem;
     background-size: 100%;
-    padding-bottom: 70px;
+    padding-bottom: 4.375rem;
 }
 
 .sale-text {
@@ -418,7 +440,8 @@ button {
 	float: left;
 	font-size: 45pt;
 	color: #ed2540;
-	line-height: 75px;
+	/* Salmon Pink */ 
+	line-height: 4.6875rem;
 }
 
 .number-text {
@@ -426,14 +449,15 @@ button {
 	float: left;
 	font-size: 45pt;
 	color: #ed2540;
-	line-height: 75px;
+	/* Salmon Pink */
+	line-height: 4.6875rem;
 }
 
 .shoes-icon {
 	width: 100%;
 	float: left;
 	text-align: center;
-	min-height: 220px;
+	min-height: 13.75rem;
 }
 
 .star-text {
@@ -444,18 +468,18 @@ button {
 .left-part {
     width: 60%;
     float: left;
-    padding-left: 15px;
-    padding-top: 15px;
+    padding-left: 0.9375rem;
+    padding-top: 0.9375rem;
 }
 
 .left-part ul {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 .left-part li {
     float: left;
-    padding-left: 10px;
+    padding-left: 0.625rem;
 }
 
 .right-part {
@@ -468,6 +492,7 @@ button {
 	float: left; 
 	font-size: 22pt; 
 	color: #0f0d10; 
+	/* Black with 6% Opacity */
 	text-align: right;
 }
 
@@ -478,7 +503,7 @@ button {
 	float: left;
 	background-image: url(../images/banner.png);
 	height: auto;
-	padding: 20px 0px;
+	padding: 1.25rem 0;
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
@@ -486,16 +511,16 @@ button {
 .shoes-img {
     width: 100%;
     float: left;
-    padding-top: 30px;
+    padding-top: 1.875rem;
 }
 
 .shoes-img2 {
 	width: 100%;
 	float: left;
 	text-align: center;
-	padding-top: 100px;
-	padding-bottom: 40px;
-	margin: 0px
+	padding-top: 6.25rem;
+	padding-bottom: 2.5rem;
+	margin: 0;
 }
 
 .shoes-img3 {
@@ -509,15 +534,16 @@ button {
 	float: left;
 	background-image: url(../images/shop-banner.png);
 	height: auto;
-	padding: 70px;
+	padding: 4.375rem;
 }
 
 .about-img {
     width: 100%;
     background-color: #ffffff;
+    /* White */
     height: 75%;
-    margin-left: 64px;
-    box-shadow: 0px 0px 10px 0px;
+    margin-left: 4rem;
+    box-shadow: 0 0 0.625rem 0;
     position: relative;
     z-index: 1;
 }
@@ -527,34 +553,38 @@ button {
 	float: left;
 	background-image: url(../images/about-img2.png);
 	height: auto;
-	box-shadow: 0px 0px 10px 0px;
-	margin-left: -50px;
-    margin-top: 74px;
+	box-shadow: 0 0 0.625rem 0;
+	margin-left: -3.125rem;
+    margin-top: 4.625rem;
 }
 
 .shoes-img {
 	width: 100%;
 	float: left;
 	text-align: center;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	margin: 0px;
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+	margin: 0;
 }
 
 .see-more {
 	width: 50%;
-	height: 50px;
+	height: 3.125rem;
 	color: #ffffff;
+	/* White */
 	background-color: #ff4e5b;
+	/* Salmon Pink */
 	color: #ffffff;
+	/* White */
 	font-size: 16pt;	
-	margin-top: 35px;
+	margin-top: 2.1875rem;
 }
 
 .gallery-section {
 	width: 100%;
 	float: left;
 	background-color: #ff4e5b;
+	/* Salmon Pink */
 	height: auto;
 }
 
@@ -562,10 +592,11 @@ button {
     width: 100%;
     float: left;
     background-color: #ffffff;
+    /* White */
     height: auto;
-    padding: 20px 20px 20px 0px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding: 1.25rem 1.25rem 1.25rem 0;
+    margin-top: 0.9375rem;
+    margin-bottom: 0.9375rem;
 }
 
 .best-text {
@@ -573,17 +604,20 @@ button {
 	float: left;
 	font-size: 14pt;
 	color: #000;
+	/* Black */
 	text-align: center;
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 .buy-text {
 	width: 32%;
-	height: 50px;
+	height: 3.125rem;
 	color: #ffffff;
+	/* White */
 	background-color: #131111;
+	/* Black with 7% Opacity */
 	font-size: 16pt;	
-	margin-top: 35px;
+	margin-top: 2.1875rem;
 }
 
 /* ------------ Containers ------------ */
@@ -594,14 +628,14 @@ button {
 }
 
 .layout-padding {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 5.625rem;
+    padding-bottom: 5.625rem;
 }
 
 .collection-section {
     width: 100%;
     float: left;
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
 
 .collection-section-2 {
@@ -612,16 +646,18 @@ button {
 .collection-section-3 {
     width: 100%;
     float: left;
-    padding-top: 0px;
+    padding-top: 0;
 }
 
 .message-container {
     border: 1px solid #000;
-    color: #000000;
+    /* Border - Black */
+    color: #000;
+    /* Black */
     width: 100%;
-    height: 200px;
-    font-size: 22px;
-    padding: 70px 20px 10px 20px;
+    height: 12.5rem;
+    font-size: 1.375rem;
+    padding: 4.375rem 1.25rem 0.625rem 1.25rem;
 }
 
 .ram{
@@ -637,41 +673,47 @@ button {
 
 a:hover {
     color: #fff;
+    /* White */
 }
 
 .our-shop {
     width: 100%;
     float: left;
-    padding-top: 205px;
-    padding-bottom: 205px;
+    padding-top: 12.8125rem;
+    padding-bottom: 12.8125rem;
 }
 
 .email-box {
     width: 85%;
     float: right;
     background-color: #14120e;
+    /* Black with 7% Opacity */
     height: auto;
-    padding: 20px 20px;
-    opacity: 0.80;
+    padding: 1.25rem 1.25rem;
+    opacity: 0.8;
 }
 
 /*--------------- Buttons --------------*/
 
 .buy-btn { 
 	width: 30%;
-	height: 50px;
+	height: 3.125rem;
 	background-color: #ff4e5b;
+	/* Salmon Pink */
 	color: #ffffff;
+	/* White */
 	font-size: 16pt;
 }
 
 .more-btn {
 	width: 32%;
-	height: 50px;
+	height: 3.125rem;
 	background-color: #ffffff;
+	/* White */
 	color: #ff4e5b;
+	/* Salmon Pink */
 	font-size: 16pt;
-	margin-left: 25px;
+	margin-left: 1.5625rem;
 }
 
 .buy-now-btn {
@@ -688,27 +730,33 @@ a:hover {
 
 .main-btn {
     background: #ff4e5b;
+    /* Salmon Pink */
     border: none;
-    width: 170px;
-    height: 58px;
-    font-size: 26px;
+    width: 10.625rem;
+    height: 3.625rem;
+    font-size: 1.625rem;
     color: #ffffff;
+    /* White */
 }
 
 .subscribe-btn {
     width: 80%;
     float: right;
     background-color: #ff4e5b;
+    /* Salmon Pink */
     font-size: 13pt;
-    height: 50px;
+    height: 3.125rem;
     color: #000;
+    /* Black */
 }
 
 .our-shop-btn {
     width: 40%;
     margin: 0 auto;
     background-color: #ffffff;
+    /* White */
     color: #131111;
+    /* Black with 7% Opacity */ 
     text-align: center;
     font-size: 20pt;
     display: block;
@@ -716,22 +764,26 @@ a:hover {
 
 .see-more-btn {
 	width: 32%;
-	height: 50px;
+	height: 3.125rem;
 	color: #ffffff;
+	/* White */
 	background-color: #ff4e5b;
+	/* Salmon Pink */
 	font-size: 16pt;	
-	margin-top: 35px;
-    margin-bottom: 90px;
+	margin-top: 2.1875rem;
+    margin-bottom: 5.625rem;
 }
 
 .new-btn {
 	width: 18%;
 	float: left;
 	background-color: #000;
+	/* Black */
 	font-size: 14pt;
 	text-align: center;
 	color: #ffffff;
-	height: 50px;
+	/* White */
+	height: 3.125rem;
 }
 
 /*--------------- Footer ---------------*/
@@ -740,18 +792,21 @@ a:hover {
     width: 100%;
     float: left;
     background-color: #272222;
+    /* Black with 14% Opacity */
     height: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
 }
 
 .site-notices {
     cursor: pointer;
     color: #FFF;
+    /* White */
 }
 
 .site-notices:hover {
     color: #FF4E58;
+    /* Salmon Pink */
 }
 
 .mail-section {
@@ -763,19 +818,21 @@ a:hover {
     float: left;
     font-size: 12pt;
     color: #fdfefe;
+    /* Faint Teal */
 }
 
 .footer-section-2 {
     width: 100%;
     float: left;
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
 .shop-text {
     width: 100%;
     float: left;
-    font-size: 28px;
+    font-size: 1.75rem;
     color: #ebebeb;
+    /* Black with 92% Opacity */
 }
 
 .dummy-text {
@@ -783,31 +840,34 @@ a:hover {
     float: left;
     font-size: 12pt;
     color: #ffffff;
-    margin-left: 0px;
-    margin-top: 55px;
-    line-height: 25px;
+    /* White */
+    margin-left: 0;
+    margin-top: 3.4375rem;
+    line-height: 1.5625rem;
 }
 
 .image-icon {
     width: 100%;
     float: left;
-    padding-top: 6px;
+    padding-top: 0.375rem;
 }
 
 .pet-text {
     font-size: 12pt;
     color: #ffffff;
-    padding-left: 16px;
+    /* White */
+    padding-left: 1rem;
     display: flex;
-    top: -26px;
+    top: -1.625rem;
     position: relative;
 }
 
 .address-text {
     width: 100%;
     float: left;
-    font-size: 28px;
+    font-size: 1.75rem;
     color: #ebebeb;
+    /* Black with 92% Opacity */
 }
 
 .copyright {
@@ -815,32 +875,39 @@ a:hover {
     float: left;
     font-size: 12pt;
     color: #ffffff;
+    /* White */
     text-align: center;
-    padding: 10px 0px;
+    padding: 0.625rem 0;
     background-color: #ff4e5b;
+    /* Salmon Pink */
     font-family: Poppins;
 }
 
 .copyright a {
     color: #ffffff;
+    /* White */
 }
 
 .copyright a:hover {
     color: #000;
+    /* Black */
 }
 
 .delivery-text {
 	width: 100%;
 	float: left;
-	font-size: 17px;
+	font-size: 1.0625rem;
 	color: #ffffff;
+	/* White */
 }
 
 .enter-email {
     border: 1px solid #000;
+    /* Border - Black */
     color: #000000;
+    /* Black */
     width: 100%;
-    height: 44px;
-    font-size: 14px;
-    padding: 20px;
+    height: 2.75rem;
+    font-size: 0.875rem;
+    padding: 1.25rem;
 }

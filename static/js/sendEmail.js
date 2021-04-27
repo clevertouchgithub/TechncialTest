@@ -6,10 +6,12 @@ function sendMail(contactForm) { // Passing in the form as a parameter
     })
     .then( // Continuing with the 'Promise Approach > When & Then' 
         function(response) {
-            console.log("SUCCESS", response);
+            alert('Congratulations - Message sent!');
+            
         },
         function(error) {
-            console.log("FAILED", error);
+            alert('Sorry, Message not sent. Please try again.');
+            
         }
     );
     return false;  // To block from loading a new page

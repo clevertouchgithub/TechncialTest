@@ -5,7 +5,7 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     /* Tablet - Portrait View */
     .header-search {
-        padding: 15px 0px;
+        padding: 0.9375rem 0;
     }
 }
 
@@ -17,147 +17,170 @@
     .logo {
         text-align: center;
     }
+    
     .cart-content-right {
-        padding-bottom: 5px;
+        padding-bottom: 0.3125rem;
     }
+    
     .mg {
-        margin: 0px 0px;
+        margin: 0;
     }
+    
     .menu-area-main {
-        height: 256px;
+        height: 16rem;
         overflow-y: auto;
     }
+    
     .megamenu>.row [class*="col-"] {
-        padding: 0px;
+        padding: 0;
     }
-    .menu-area-main .megamenu .men-cat {
-        padding: 0px 15px;
-    }
-    .menu-area-main .megamenu .women-cat {
-        padding: 0px 15px;
-    }
+    
+    .menu-area-main .megamenu .men-cat,
+    .menu-area-main .megamenu .women-cat,
     .menu-area-main .megamenu .el-cat {
-        padding: 0px 15px;
+        padding: 0 0.9375rem;
     }
+    
     .mean-container .mean-nav ul li a.mean-expand {
-        height: 19px;
+        height: 1.1875rem;
     }
+    
     .category-box.women-box {
         display: none;
     }
+    
     .cart-box {
         display: inline-block;
-        margin: 0px 30px;
+        margin: 0 1.875rem;
     }
+    
     .wish-box {
         float: none;
-        margin: 0px 30px;
+        margin: 0 1.875rem;
         display: inline-block;
     }
+    
     .menu-add {
         display: none;
     }
+    
     .category-box {
         display: none;
     }
+    
     .mean-container .mean-nav ul li ol {
-        padding: 0px;
+        padding: 0;
     }
+    
     .mean-container .mean-nav ul li a {
-        padding: 10px 20px;
+        padding: 0.625rem 1.25rem;
         width: 94.8%;
     }
+    
     .mean-container .mean-nav ul li li a {
         width: 92%;
         padding: 1em 4%;
     }
+    
     .mean-container .mean-nav ul li li li a {
         width: 100%;
     }
+    
     .header-search {
-        padding: 15px 0px;
+        padding: 0.9375rem 0;
     }
+    
     #collapseFilter.d-md-block {
-        padding: 30px 0px;
+        padding: 1.875rem 0;
     }
 }
-
 
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
 
 @media only screen and (min-width: 280px) and (max-width: 599px) {
     /* Mobile - Portrait View */
     .cart-content-right {
-        padding-bottom: 5px;
+        padding-bottom: 0.3125rem;
     }
     .megamenu>.row [class*="col-"] {
-        padding: 0px;
+        padding: 0;
     }
-    .menu-area-main .megamenu .men-cat {
-        padding: 0px 15px;
-    }
-    .menu-area-main .megamenu .women-cat {
-        padding: 0px 15px;
-    }
+    .menu-area-main .megamenu .men-cat,
+    .menu-area-main .megamenu .women-cat,
     .menu-area-main .megamenu .el-cat {
-        padding: 0px 15px;
+        padding: 0 0.9375rem;
     }
+    
     .mean-container .mean-nav ul li a {
         padding: 1em 4%;
         width: 92%;
     }
+    
     .mean-container .mean-nav ul li li a {
         width: 90%;
         padding: 1em 5%;
     }
+    
     .mean-container .sub-full.megamenu-categories ol li a {
-        padding: 5px 0px;
+        padding: 0.3125rem 0;
         text-transform: capitalize;
         width: 100%;
     }
+    
     .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
         width: auto;
         border: none;
         float: none;
     }
+    
     .menu-area-main {
-        height: 45px;
+        height: 2.8125rem;
         overflow-y: auto;
     }
+    
     .mean-container .mean-nav ul li a.mean-expand {
         top: 0;
     }
 
-    .banner_text {
+    .banner-text {
         font-size: 20pt;
     }
-    .mens_text {
+    
+    .mens-text {
         font-size: 25pt;
     }
-    .lorem_text {
+    
+    .lorem-text {
         display: none;
     }
-    .buy_bt {
+    
+    .buy-btn {
         display: none;
     }
-    .more_bt {
+    
+    .more-btn {
         display: none;
     }
-    .star_icon {
+    
+    .star-icon {
         width: 23%;
     }
-    .seemore_bt {
+    
+    .see-more-btn {
         width: 55%;
     }
-    .sport_text {
+    
+    .sport-text {
         width: 50%;
     }
-    .left_part {
-        padding-left: 10px;
+    
+    .left-part {
+        padding-left: 0.625rem;
     }
-    .massage-bt {
-        height: 160px;
-        padding: 55px 20px 10px 20px;
+    
+    .message-btn {
+        height: 10rem;
+        padding: 3.4375rem 1.25rem 0.625rem 1.25rem;
     }
 }
 
@@ -165,26 +188,30 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     /* Desktop - Portrait view */
-    .titlepage h2::after {
-        width: 58%;
-    }
-    .about-box .titlepage h2::after {
-        width: 52%;
-        right: -221px;
-    }
-    .Nursery-img .text-box h3 {
-        padding: 111px 50px;
-    }
-    .contact .titlepage h2::after {
-        left: -650px;
+    /*.titlepage h2::after {*/
+        /*width: 58%;*/
+    /*}*/
+    /*.about-box .titlepage h2::after {*/
+        /*width: 52%;*/
+        /*right: -221px;*/
+    /*}*/
+    /*.Nursery-img .text-box h3 {*/
+        /*padding: 111px 50px;*/
+    /*}*/
+    /*.contact .titlepage h2::after {*/
+        /*left: -650px;*/
+        /*width: 30%;*/
+    /*}*/
+    
+    .sport-text {
+        margin-top: 0;
         width: 30%;
     }
-    .sporrt_text {
-        margin-top: 0px;
-    }
+    
     #main_slider a.carousel-control-prev {
         display: none;
     }
+    
     #main_slider a.carousel-control-next {
         display: none;
     }
@@ -192,68 +219,78 @@
     .navbar-light .navbar-nav .nav-link {
         font-size: 13pt;
     }
+    
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 0.5rem;
         padding-left: 1.5rem;
     }
-    .banner_text {
+    
+    .banner-text {
         font-size: 28pt;
     }
-    .mens_text {
+    
+    .mens-text {
         font-size: 35pt;
     }
-    .lorem_text {
+    
+    .lorem-text {
         font-size: 10pt;
     }
-    .buy_bt {
+    
+    .buy-btn {
         width: 40%;
     }
-    .more_bt {
+    
+    .more-btn {
         width: 40%;
     }
-    .page_no {
+    
+    .page-no {
         width: 40%;
     }
-    .mens_taital_2 {
-        margin-top: 100px;
-    }
-    .sport_text {
+    
+    .star-icon {
         width: 30%;
     }
-    .star_icon {
-        width: 30%;
-    }
+    
     .footer-logo {
         font-size: 10pt;
     }
-    .map_text {
+    
+    .map-text {
         padding-left: 9px;
     }
-    .mail_section li {
+    
+    .mail-section li {
         padding-right: 28px;
     }
-    .dummy_text {
+    
+    .dummy-text {
         font-size: 10pt;
-    }
-    .pet_text {
-        font-size: 10pt;
-    }
-    .delivery_text {
-        font-size: 10pt;
-    }
-    .shop_text {
-        font-size: 20px;
-    }
-    .adderess_text {
-        font-size: 20px;
-    }
-    .dummy_text {
         margin-top: 45px;
     }
-    .email_box {
+    
+    .pet-text {
+        font-size: 10pt;
+    }
+    
+    .delivery-text {
+        font-size: 10pt;
+    }
+    
+    .shop-text {
+        font-size: 20px;
+    }
+    
+    .address-text {
+        font-size: 20px;
+    }
+    
+    .email-box {
         width: 95%;
         padding: 20px 0px;
     }
+    
     .last {
         padding-left: 12px !important;
     }
@@ -362,15 +399,7 @@
         margin-left: 10px;
     }
     
-    .mens_taital {
-        display: none;
-    }
-    
     .page_no {
-        display: none;
-    }
-    
-    .mens_taital_2 {
         display: none;
     }
     
@@ -447,14 +476,14 @@
         display: none;
     }
     
-    .banner-main .carousel-caption {
-        top: 0%;
-    }
+    /*.banner-main .carousel-caption {*/
+        /*top: 0%;*/
+    /*}*/
     
-    .titlepage h2 {
-        font-size: 42px;
-        display: block;
-    }
+    /*.titlepage h2 {*/
+        /*font-size: 42px;*/
+        /*display: block;*/
+    /*}*/
     
     #main_slider a.carousel-control-prev {
         position: absolute;
@@ -463,7 +492,7 @@
         display: none;
     }
     
-    .btn_main {
+    .main-btn {
         margin-top: 58px;
         width: 80%;
     }
@@ -484,50 +513,50 @@
         width: 95%;
     }
 
-    .banner-main .carousel-caption h1 {
-        font-size: 50px;
-    }
+    /*.banner-main .carousel-caption h1 {*/
+        /*font-size: 50px;*/
+    /*}*/
     
-    .titlepage h2::after {
-        width: 88%;
-    }
+    /*.titlepage h2::after {*/
+        /*width: 88%;*/
+    /*}*/
 
-    .about-box .titlepage h2::after {
-        width: 45%;
-        right: -281px;
-    }
+    /*.about-box .titlepage h2::after {*/
+        /*width: 45%;*/
+        /*right: -281px;*/
+    /*}*/
     
-    .sporrt_text {
+    .sport-text {
         margin-top: 0px;
     }
     
-    .Nursery-img .text-box h3 {
-        font-size: 36px;
-        padding: 126px 40px;
-    }
+    /*.Nursery-img .text-box h3 {*/
+        /*font-size: 36px;*/
+        /*padding: 126px 40px;*/
+    /*}*/
     
     .main {
         width: 20%;
     }
 
-    .contact .titlepage h2::after {
-        left: -234px;
-        width: 55%;
-    }
+    /*.contact .titlepage h2::after {*/
+        /*left: -234px;*/
+        /*width: 55%;*/
+    /*}*/
 
-    .banner_taital {
+    .banner_title {
         display: none;
     }
     
-    .padding_0 {
-        display: none;
-    }
+    /*.padding_0 {*/
+        /*display: none;*/
+    /*}*/
     
     .about-img {
         margin-left: 0px;
     }
     
-    .new_bt {
+    .new-btn {
         margin-left: 0px;
     }
     
@@ -537,24 +566,24 @@
         margin-bottom: 70px;
     }
     
-    .left_part {
+    .left-part {
         padding-left: 2px;
     }
     
-    .left_part li {
+    .left-part li {
         padding-left: 0px;
     }
     
-    .shoes_price {
+    .shoes-price {
         font-size: 13pt;
         padding-top: 17px;
     }
     
-    .buy_text {
+    .buy-text {
         width: 50%;
     }
     
-    .shop_banner {
+    .shop-banner {
         margin-top: 20px;
     }
 
@@ -569,7 +598,7 @@
         width: 50%;
     }
 
-    .star_icon li {
+    .star-icon li {
         padding-right: 8px;
     }
 }
@@ -587,172 +616,152 @@
     }
     
     .header {
-        padding-top: 0px;
+        padding-top: 0;
     }
     
     .logo {
         float: inherit;
-        padding-bottom: 15px;
+        padding-bottom: 0.9375rem;
         text-align: center;
     }
     
-    .btn-primary {
-        max-width: 126px;
-        margin-right: 2px;
-        font-size: 14px;
-    }
+    /*.btn-primary {*/
+        /*max-width: 126px;*/
+        /*margin-right: 2px;*/
+        /*font-size: 14px;*/
+    /*}*/
     
-    .banner-main .carousel-caption h1 {
-        font-size: 30px;
-        line-height: 38px;
-    }
-    
-    .titlepage h2 {
-        font-size: 27px;
-    }
-    
-    .sporrt_text {
-        font-size: 23px;
-        margin-top: 0px;
+    .sport-text {
+        font-size: 1.4375rem;
+        margin-top: 0;
     }
     
     .main {
         width: 30%;
     }
     
-    .btn_main {
-        margin-top: 30px;
-        padding-bottom: 30px;
+    .main-btn {
+        margin-top: 1.875rem;
+        padding-bottom: 1.875rem;
         width: 55%;
     }
 
     #main_slider a.carousel-control-prev {
         position: absolute;
-        left: 175px;
+        left: 10.9375rem;
         top: 90%;
         display: none;
     }
 
     #main_slider a.carousel-control-next {
         position: absolute;
-        left: 236px;
+        left: 14.75rem;
         top: 90%;
         display: none;
     }
-
-    .titlepage h2::after {
-        width: 93%;
-    }
     
-    .about-box .titlepage h2::after {
-        width: 238px;
-        right: -50px;
-    }
+    /*.about-box .titlepage h2::after {*/
+        /*width: 238px;*/
+        /*right: -50px;*/
+    /*}*/
     
-    .Gallery .titlepage h2 {
-        font-size: 47px;
-    }
+    /*.Gallery .titlepage h2 {*/
+        /*font-size: 47px;*/
+    /*}*/
     
-    .Gallery .titlepage h2::after {
-        width: 89%;
-    }
+    /*.Gallery .titlepage h2::after {*/
+        /*width: 89%;*/
+    /*}*/
 
-    .paddimg-right {
-        padding-right: 15px;
-    }
+    /*.paddimg-right {*/
+        /*padding-right: 15px;*/
+    /*}*/
     
-    .paddimg-left {
-        padding-left: 15px;
-    }
+    /*.paddimg-left {*/
+        /*padding-left: 15px;*/
+    /*}*/
     
-    .Nursery-img .text-box h3 {
-        font-size: 23px;
-        padding: 30px 14px;
-    }
+    /*.Nursery-img .text-box h3 {*/
+        /*font-size: 23px;*/
+        /*padding: 30px 14px;*/
+    /*}*/
 
-    .contact .titlepage h2::after {
-        left: -8px;
-        width: 281px;
-    }
+    /*.contact .titlepage h2::after {*/
+        /*left: -8px;*/
+        /*width: 281px;*/
+    /*}*/
 
-    .footer .headinga span {
-        font-size: 16px;
-    }
+    /*.footer .headinga span {*/
+        /*font-size: 16px;*/
+    /*}*/
 
-    .menu-bottom {
-        margin-bottom: 45px;
-    }
+    /*.menu-bottom {*/
+        /*margin-bottom: 45px;*/
+    /*}*/
 
-    ul.link li {
-        padding: 8px 12px;
-        padding-bottom: 0px;
-    }
-
-    .mens_taital {
-        display: none;
-    }
+    /*ul.link li {*/
+        /*padding: 8px 12px;*/
+        /*padding-bottom: 0px;*/
+    /*}*/
     
-    .mens_taital_2 {
-        display: none;
-    }
-    
-    .page_no {
+    .page-no {
         display: none;
     }
     
     .bg-light {
         background-color: #db5660!important;
+        /* Salmon Pink */
     }
     
-    .header_section {
+    .header-section {
         background-size: cover;
     }
     
-    .header_section {
+    .header-section {
         background-size: cover;
         background-repeat: no-repeat;
     }
     
-    .buy_text {
+    .buy-text {
         width: 100%;
     }
     
-    .email_box {
+    .email-box {
         width: 100%;
     }
     
-    .shop_banner {
-        margin-top: 20px;
+    .shop-banner {
+        margin-top: 1.25rem;
     }
     
     .footer-logo {
-        padding-top: 20px;
+        padding-top: 1.25rem;
     }
     
-    .mail_section li {
-        padding-top: 20px;
+    .mail-section li {
+        padding-top: 1.25rem;
     }
     
-    .subscribr_bt {
+    .subscribe-btn {
         width: 55%;
     }
     
-    .out_shop_bt {
+    .out-shop-btn {
         width: 100%;
         font-size: 14pt;
-        height: 50px;
+        height: 3.125rem;
     }
 
     .about-img {
-        margin-left: 0px;
+        margin-left: 0;
     }
     
-    .new_bt {
-        margin-left: 0px;
+    .new-btn {
+        margin-left: 0;
         width: 33%;
     }
     
     .about-img2 {
-        margin-left: 0px;
+        margin-left: 0;
     }
 }

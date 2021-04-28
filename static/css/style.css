@@ -326,7 +326,8 @@ button {
     /* White */
     border: 2px solid #FF4E5B;
     /* Border - Salmon Pink */
-    border-radius: 1.875rem;
+    border-radius: 50%;
+    /* Circle shape effect */
     margin-top: 9.375rem;
     padding-bottom: 0.625rem;
     display: inline-block;

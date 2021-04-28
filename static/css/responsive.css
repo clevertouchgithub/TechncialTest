@@ -639,10 +639,7 @@
         width: 30%;
     }
     
-    #main_slider a.carousel-control-prev {
-        display: none;
-    }
-    
+    #main_slider a.carousel-control-prev,
     #main_slider a.carousel-control-next {
         display: none;
     }
@@ -664,18 +661,8 @@
         font-size: 35pt;
     }
     
-    .lorem-text {
-        font-size: 10pt;
-    }
-    
-    .buy-btn {
-        width: 40%;
-    }
-    
-    .more-btn {
-        width: 40%;
-    }
-    
+    .buy-btn,
+    .more-btn, 
     .page-no {
         width: 40%;
     }
@@ -684,45 +671,37 @@
         width: 30%;
     }
     
-    .footer-logo {
-        font-size: 10pt;
-    }
-    
     .map-text {
-        padding-left: 9px;
+        padding-left: 0.5625rem;
     }
     
     .mail-section li {
-        padding-right: 28px;
+        padding-right: 1.75rem;
     }
     
     .dummy-text {
         font-size: 10pt;
-        margin-top: 45px;
+        margin-top: 2.8125rem;
     }
     
-    .pet-text {
+    .pet-text,
+    .delivery-text,
+    .lorem-text,
+    .footer-logo {
         font-size: 10pt;
     }
     
-    .delivery-text {
-        font-size: 10pt;
-    }
-    
-    .shop-text {
-        font-size: 20px;
-    }
-    
+    .shop-text,
     .address-text {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     
     .email-box {
         width: 95%;
-        padding: 20px 0px;
+        padding: 1.25rem 0;
     }
     
     .last {
-        padding-left: 12px !important;
+        padding-left: 0.75rem !important;
     }
 }

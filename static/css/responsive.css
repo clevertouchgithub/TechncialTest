@@ -1,14 +1,259 @@
 /*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
 
-/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    /* Tablet - Portrait View */
-    .header-search {
-        padding: 0.9375rem 0;
+/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+    /* Mobile - Portrait View */
+    .cart-content-right {
+        padding-bottom: 0.3125rem;
+    }
+    
+    .megamenu>.row [class*="col-"] {
+        padding: 0;
+    }
+    
+    .menu-area-main .megamenu .men-cat,
+    .menu-area-main .megamenu .women-cat,
+    .menu-area-main .megamenu .el-cat {
+        padding: 0 0.9375rem;
+    }
+    
+    .mean-container .mean-nav ul li a {
+        padding: 1em 4%;
+        width: 92%;
+    }
+    
+    .mean-container .mean-nav ul li li a {
+        width: 90%;
+        padding: 1em 5%;
+    }
+    
+    .mean-container .sub-full.megamenu-categories ol li a {
+        padding: 0.3125rem 0;
+        text-transform: capitalize;
+        width: 100%;
+    }
+    
+    .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
+        width: auto;
+        border: none;
+        float: none;
+    }
+    
+    .menu-area-main {
+        height: 2.8125rem;
+        overflow-y: auto;
+    }
+    
+    .mean-container .mean-nav ul li a.mean-expand {
+        top: 0;
+    }
+
+    .banner-text {
+        font-size: 20pt;
+    }
+    
+    .mens-text {
+        font-size: 25pt;
+    }
+    
+    .lorem-text {
+        display: none;
+    }
+    
+    .buy-btn {
+        display: none;
+    }
+    
+    .more-btn {
+        display: none;
+    }
+    
+    .star-icon {
+        width: 23%;
+    }
+    
+    .see-more-btn {
+        width: 55%;
+    }
+    
+    .sport-text {
+        width: 50%;
+    }
+    
+    .left-part {
+        padding-left: 0.625rem;
+    }
+    
+    .message-btn {
+        height: 10rem;
+        padding: 3.4375rem 1.25rem 0.625rem 1.25rem;
     }
 }
 
+/*------------------------------------------------------------------- 575px Max-Width  ---------------------------------------------------------------------*/
+
+@media (max-width: 575px) {
+    /* Mobile Device */
+    .last {
+        display: none;
+    }
+    
+    .carousel-caption {
+        display: none;
+    }
+    
+    .header {
+        padding-top: 0;
+    }
+    
+    .logo {
+        float: inherit;
+        padding-bottom: 0.9375rem;
+        text-align: center;
+    }
+    
+    /*.btn-primary {*/
+        /*max-width: 126px;*/
+        /*margin-right: 2px;*/
+        /*font-size: 14px;*/
+    /*}*/
+    
+    .sport-text {
+        font-size: 1.4375rem;
+        margin-top: 0;
+    }
+    
+    .main {
+        width: 30%;
+    }
+    
+    .main-btn {
+        margin-top: 1.875rem;
+        padding-bottom: 1.875rem;
+        width: 55%;
+    }
+
+    #main_slider a.carousel-control-prev {
+        position: absolute;
+        left: 10.9375rem;
+        top: 90%;
+        display: none;
+    }
+
+    #main_slider a.carousel-control-next {
+        position: absolute;
+        left: 14.75rem;
+        top: 90%;
+        display: none;
+    }
+    
+    /*.about-box .titlepage h2::after {*/
+        /*width: 238px;*/
+        /*right: -50px;*/
+    /*}*/
+    
+    /*.Gallery .titlepage h2 {*/
+        /*font-size: 47px;*/
+    /*}*/
+    
+    /*.Gallery .titlepage h2::after {*/
+        /*width: 89%;*/
+    /*}*/
+
+    /*.paddimg-right {*/
+        /*padding-right: 15px;*/
+    /*}*/
+    
+    /*.paddimg-left {*/
+        /*padding-left: 15px;*/
+    /*}*/
+    
+    /*.Nursery-img .text-box h3 {*/
+        /*font-size: 23px;*/
+        /*padding: 30px 14px;*/
+    /*}*/
+
+    /*.contact .titlepage h2::after {*/
+        /*left: -8px;*/
+        /*width: 281px;*/
+    /*}*/
+
+    /*.footer .headinga span {*/
+        /*font-size: 16px;*/
+    /*}*/
+
+    /*.menu-bottom {*/
+        /*margin-bottom: 45px;*/
+    /*}*/
+
+    /*ul.link li {*/
+        /*padding: 8px 12px;*/
+        /*padding-bottom: 0px;*/
+    /*}*/
+    
+    .page-no {
+        display: none;
+    }
+    
+    .bg-light {
+        background-color: #db5660!important;
+        /* Salmon Pink */
+    }
+    
+    .header-section {
+        background-size: cover;
+    }
+    
+    .header-section {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .buy-text {
+        width: 100%;
+    }
+    
+    .email-box {
+        width: 100%;
+    }
+    
+    .shop-banner {
+        margin-top: 1.25rem;
+    }
+    
+    .footer-logo {
+        padding-top: 1.25rem;
+    }
+    
+    .mail-section li {
+        padding-top: 1.25rem;
+    }
+    
+    .subscribe-btn {
+        width: 55%;
+    }
+    
+    .out-shop-btn {
+        width: 100%;
+        font-size: 14pt;
+        height: 3.125rem;
+    }
+
+    .about-img {
+        margin-left: 0;
+    }
+    
+    .new-btn {
+        margin-left: 0;
+        width: 33%;
+    }
+    
+    .about-img2 {
+        margin-left: 0;
+    }
+}
 
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
     
@@ -92,207 +337,6 @@
     
     #collapseFilter.d-md-block {
         padding: 1.875rem 0;
-    }
-}
-
-/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
-
-@media only screen and (min-width: 280px) and (max-width: 599px) {
-    /* Mobile - Portrait View */
-    .cart-content-right {
-        padding-bottom: 0.3125rem;
-    }
-    .megamenu>.row [class*="col-"] {
-        padding: 0;
-    }
-    .menu-area-main .megamenu .men-cat,
-    .menu-area-main .megamenu .women-cat,
-    .menu-area-main .megamenu .el-cat {
-        padding: 0 0.9375rem;
-    }
-    
-    .mean-container .mean-nav ul li a {
-        padding: 1em 4%;
-        width: 92%;
-    }
-    
-    .mean-container .mean-nav ul li li a {
-        width: 90%;
-        padding: 1em 5%;
-    }
-    
-    .mean-container .sub-full.megamenu-categories ol li a {
-        padding: 0.3125rem 0;
-        text-transform: capitalize;
-        width: 100%;
-    }
-    
-    .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
-        width: auto;
-        border: none;
-        float: none;
-    }
-    
-    .menu-area-main {
-        height: 2.8125rem;
-        overflow-y: auto;
-    }
-    
-    .mean-container .mean-nav ul li a.mean-expand {
-        top: 0;
-    }
-
-    .banner-text {
-        font-size: 20pt;
-    }
-    
-    .mens-text {
-        font-size: 25pt;
-    }
-    
-    .lorem-text {
-        display: none;
-    }
-    
-    .buy-btn {
-        display: none;
-    }
-    
-    .more-btn {
-        display: none;
-    }
-    
-    .star-icon {
-        width: 23%;
-    }
-    
-    .see-more-btn {
-        width: 55%;
-    }
-    
-    .sport-text {
-        width: 50%;
-    }
-    
-    .left-part {
-        padding-left: 0.625rem;
-    }
-    
-    .message-btn {
-        height: 10rem;
-        padding: 3.4375rem 1.25rem 0.625rem 1.25rem;
-    }
-}
-
-/*------------------------------------------------------------------- 992px x 1199px ---------------------------------------------------------------------*/
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    /* Desktop - Portrait view */
-    /*.titlepage h2::after {*/
-        /*width: 58%;*/
-    /*}*/
-    /*.about-box .titlepage h2::after {*/
-        /*width: 52%;*/
-        /*right: -221px;*/
-    /*}*/
-    /*.Nursery-img .text-box h3 {*/
-        /*padding: 111px 50px;*/
-    /*}*/
-    /*.contact .titlepage h2::after {*/
-        /*left: -650px;*/
-        /*width: 30%;*/
-    /*}*/
-    
-    .sport-text {
-        margin-top: 0;
-        width: 30%;
-    }
-    
-    #main_slider a.carousel-control-prev {
-        display: none;
-    }
-    
-    #main_slider a.carousel-control-next {
-        display: none;
-    }
-
-    .navbar-light .navbar-nav .nav-link {
-        font-size: 13pt;
-    }
-    
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 0.5rem;
-        padding-left: 1.5rem;
-    }
-    
-    .banner-text {
-        font-size: 28pt;
-    }
-    
-    .mens-text {
-        font-size: 35pt;
-    }
-    
-    .lorem-text {
-        font-size: 10pt;
-    }
-    
-    .buy-btn {
-        width: 40%;
-    }
-    
-    .more-btn {
-        width: 40%;
-    }
-    
-    .page-no {
-        width: 40%;
-    }
-    
-    .star-icon {
-        width: 30%;
-    }
-    
-    .footer-logo {
-        font-size: 10pt;
-    }
-    
-    .map-text {
-        padding-left: 9px;
-    }
-    
-    .mail-section li {
-        padding-right: 28px;
-    }
-    
-    .dummy-text {
-        font-size: 10pt;
-        margin-top: 45px;
-    }
-    
-    .pet-text {
-        font-size: 10pt;
-    }
-    
-    .delivery-text {
-        font-size: 10pt;
-    }
-    
-    .shop-text {
-        font-size: 20px;
-    }
-    
-    .address-text {
-        font-size: 20px;
-    }
-    
-    .email-box {
-        width: 95%;
-        padding: 20px 0px;
-    }
-    
-    .last {
-        padding-left: 12px !important;
     }
 }
 
@@ -603,165 +647,123 @@
     }
 }
 
-/*------------------------------------------------------------------- 575px Max-Width  ---------------------------------------------------------------------*/
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
-@media (max-width: 575px) {
-    /* Mobile Device */
-    .last {
-        display: none;
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Tablet - Portrait View */
+    .header-search {
+        padding: 0.9375rem 0;
     }
-    
-    .carousel-caption {
-        display: none;
-    }
-    
-    .header {
-        padding-top: 0;
-    }
-    
-    .logo {
-        float: inherit;
-        padding-bottom: 0.9375rem;
-        text-align: center;
-    }
-    
-    /*.btn-primary {*/
-        /*max-width: 126px;*/
-        /*margin-right: 2px;*/
-        /*font-size: 14px;*/
+}
+
+/*------------------------------------------------------------------- 992px x 1199px ---------------------------------------------------------------------*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Desktop - Portrait view */
+    /*.titlepage h2::after {*/
+        /*width: 58%;*/
+    /*}*/
+    /*.about-box .titlepage h2::after {*/
+        /*width: 52%;*/
+        /*right: -221px;*/
+    /*}*/
+    /*.Nursery-img .text-box h3 {*/
+        /*padding: 111px 50px;*/
+    /*}*/
+    /*.contact .titlepage h2::after {*/
+        /*left: -650px;*/
+        /*width: 30%;*/
     /*}*/
     
     .sport-text {
-        font-size: 1.4375rem;
         margin-top: 0;
-    }
-    
-    .main {
         width: 30%;
     }
     
-    .main-btn {
-        margin-top: 1.875rem;
-        padding-bottom: 1.875rem;
-        width: 55%;
-    }
-
     #main_slider a.carousel-control-prev {
-        position: absolute;
-        left: 10.9375rem;
-        top: 90%;
         display: none;
     }
-
+    
     #main_slider a.carousel-control-next {
-        position: absolute;
-        left: 14.75rem;
-        top: 90%;
         display: none;
     }
-    
-    /*.about-box .titlepage h2::after {*/
-        /*width: 238px;*/
-        /*right: -50px;*/
-    /*}*/
-    
-    /*.Gallery .titlepage h2 {*/
-        /*font-size: 47px;*/
-    /*}*/
-    
-    /*.Gallery .titlepage h2::after {*/
-        /*width: 89%;*/
-    /*}*/
 
-    /*.paddimg-right {*/
-        /*padding-right: 15px;*/
-    /*}*/
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 13pt;
+    }
     
-    /*.paddimg-left {*/
-        /*padding-left: 15px;*/
-    /*}*/
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 1.5rem;
+    }
     
-    /*.Nursery-img .text-box h3 {*/
-        /*font-size: 23px;*/
-        /*padding: 30px 14px;*/
-    /*}*/
-
-    /*.contact .titlepage h2::after {*/
-        /*left: -8px;*/
-        /*width: 281px;*/
-    /*}*/
-
-    /*.footer .headinga span {*/
-        /*font-size: 16px;*/
-    /*}*/
-
-    /*.menu-bottom {*/
-        /*margin-bottom: 45px;*/
-    /*}*/
-
-    /*ul.link li {*/
-        /*padding: 8px 12px;*/
-        /*padding-bottom: 0px;*/
-    /*}*/
+    .banner-text {
+        font-size: 28pt;
+    }
+    
+    .mens-text {
+        font-size: 35pt;
+    }
+    
+    .lorem-text {
+        font-size: 10pt;
+    }
+    
+    .buy-btn {
+        width: 40%;
+    }
+    
+    .more-btn {
+        width: 40%;
+    }
     
     .page-no {
-        display: none;
+        width: 40%;
     }
     
-    .bg-light {
-        background-color: #db5660!important;
-        /* Salmon Pink */
-    }
-    
-    .header-section {
-        background-size: cover;
-    }
-    
-    .header-section {
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
-    .buy-text {
-        width: 100%;
-    }
-    
-    .email-box {
-        width: 100%;
-    }
-    
-    .shop-banner {
-        margin-top: 1.25rem;
+    .star-icon {
+        width: 30%;
     }
     
     .footer-logo {
-        padding-top: 1.25rem;
+        font-size: 10pt;
+    }
+    
+    .map-text {
+        padding-left: 9px;
     }
     
     .mail-section li {
-        padding-top: 1.25rem;
+        padding-right: 28px;
     }
     
-    .subscribe-btn {
-        width: 55%;
+    .dummy-text {
+        font-size: 10pt;
+        margin-top: 45px;
     }
     
-    .out-shop-btn {
-        width: 100%;
-        font-size: 14pt;
-        height: 3.125rem;
-    }
-
-    .about-img {
-        margin-left: 0;
+    .pet-text {
+        font-size: 10pt;
     }
     
-    .new-btn {
-        margin-left: 0;
-        width: 33%;
+    .delivery-text {
+        font-size: 10pt;
     }
     
-    .about-img2 {
-        margin-left: 0;
+    .shop-text {
+        font-size: 20px;
+    }
+    
+    .address-text {
+        font-size: 20px;
+    }
+    
+    .email-box {
+        width: 95%;
+        padding: 20px 0px;
+    }
+    
+    .last {
+        padding-left: 12px !important;
     }
 }

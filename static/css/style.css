@@ -665,7 +665,7 @@ button {
 
 .ram{
 	width: 100%; 
-	float: left;
+	/*float: left;*/
 }
 
 /*---------- Forms ----------*/

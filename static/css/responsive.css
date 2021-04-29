@@ -666,8 +666,9 @@
     }
     
     .buy-btn,
-    .more-btn, 
-    .page-no {
+    .more-btn {
+    /*.page-no {*/
+    /* page-no width replaced by 3.5rem height & width in style.css file */
         width: 40%;
     }
     
@@ -709,3 +710,6 @@
         padding-left: 0.75rem !important;
     }
 }
+
+/*------------------------------------------------------------------- 992px x 1199px ---------------------------------------------------------------------*/
+

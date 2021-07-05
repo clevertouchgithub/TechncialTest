@@ -655,6 +655,7 @@ a:hover {
 	width: 85%;
 	float: left;
 	background-image: url(../images/shop-banner.png);
+    background-repeat: no-repeat;
 	height: auto;
 	padding: 70px;
 }

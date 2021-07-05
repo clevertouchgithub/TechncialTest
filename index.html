@@ -53,6 +53,7 @@
                            <a class="nav-item nav-link" href="shoes.html">Shoes</a>
                            <a class="nav-item nav-link" href="racing boots.html">Racing Boots</a>
                            <a class="nav-item nav-link" href="contact.html">Contact</a>
+						   <a class="nav-item nav-link" href="info.html">Info</a>
                            <a class="nav-item nav-link last" href="#"><img src="images/search_icon.png"></a>
                            <a class="nav-item nav-link last" href="contact.html"><img src="images/shop_icon.png"></a>
                         </div>
@@ -80,9 +81,6 @@
                 <div class="carousel-item active">
                     <div class="row">
 					<div class="col-sm-2 padding_0">
-						<p class="mens_taital">Men Shoes</p>
-						<div class="page_no">0/2</div>
-						<p class="mens_taital_2">Men Shoes</p>
 					</div>
 					<div class="col-sm-5">
 						<div class="banner_taital">
@@ -101,9 +99,24 @@
                 <div class="carousel-item">
                     <div class="row">
 					<div class="col-sm-2 padding_0">
-						<p class="mens_taital">Men Shoes</p>
-						<div class="page_no">0/2</div>
-						<p class="mens_taital_2">Men Shoes</p>
+					</div>
+					<div class="col-sm-5">
+						<div class="banner_taital">
+							<h1 class="banner_text">New New Running Shoes </h1>
+							<h1 class="mens_text"><strong>All New Neon Plex</strong></h1>
+							<p class="lorem_text">Check out our new Neon Plex running shoe. ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<button class="buy_bt">Buy Now</button>
+							<button class="more_bt">See More</button>
+						</div>
+					</div>
+					<div class="col-sm-5">
+						<div class="shoes_img"><img src="images/running-shoes2.png"></div>
+					</div>
+				</div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+					<div class="col-sm-2 padding_0">
 					</div>
 					<div class="col-sm-5">
 						<div class="banner_taital">
@@ -120,11 +133,8 @@
 				</div>
                 </div>
                 <div class="carousel-item">
-                    <div class="row">
+                <div class="row">
 					<div class="col-sm-2 padding_0">
-						<p class="mens_taital">Men Shoes</p>
-						<div class="page_no">0/2</div>
-						<p class="mens_taital_2">Men Shoes</p>
 					</div>
 					<div class="col-sm-5">
 						<div class="banner_taital">
@@ -140,12 +150,9 @@
 					</div>
 				</div>
                 </div>
-                <div class="carousel-item">
-                    <div class="row">
+				<div class="carousel-item">
+                <div class="row">
 					<div class="col-sm-2 padding_0">
-						<p class="mens_taital">Men Shoes</p>
-						<div class="page_no">0/2</div>
-						<p class="mens_taital_2">Men Shoes</p>
 					</div>
 					<div class="col-sm-5">
 						<div class="banner_taital">
@@ -228,7 +235,7 @@
     					<div class="shoes-img3"><img src="images/shoes-img3.png"></div>
     				</div>
     				<div class="col-md-4">
-    					<div class="sale_text"><strong>Sale <br><span style="color: #0a0506; float:right;">JOGING</span> <br>SHOES</strong></div>
+    					<div class="sale_text"><strong>Sale <br><span style="color: #0a0506;">JOGGING</span> <br>SHOES</strong></div>
     					<div class="number_text"><strong>$ <span style="color: #0a0506">100</span></strong></div>
     					<button class="seemore">See More</button>
     				</div>
@@ -379,35 +386,46 @@
    	<!-- contact section start -->
     <div class="layout_padding contact_section">
     	<div class="container">
-    		<h1 class="new_text"><strong>Contact Now</strong></h1>
     	</div>
     	<div class="container-fluid ram">
     		<div class="row">
     			<div class="col-md-6">
     				<div class="email_box">
-                    <div class="input_main">
-                       <div class="container">
-                          <form action="/action_page.php">
-                            <div class="form-group">
-                              <input type="text" class="email-bt" placeholder="Name" name="Name">
-                            </div>
-                            <div class="form-group">
-                              <input type="text" class="email-bt" placeholder="Phone Numbar" name="Name">
-                            </div>
-                            <div class="form-group">
-                              <input type="text" class="email-bt" placeholder="Email" name="Email">
-                            </div>
-                            
-                            <div class="form-group">
-                                <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
-                            </div>
-                          </form>   
-                       </div> 
-                       <div class="send_btn">
-                        <button class="main_bt">Send</button>
-                       </div>                   
-                    </div>
-    		</div>
+						<div class = "input main"> 
+                       		<div class="container">
+                          		<form class = "form" id = "form">
+									<h1 class="new_text" id="contact-heading">Contact Us</h1>
+                            		<div class="form-group">
+										<label>Name :</label>
+                              			<input type="text" class="email-bt" id="name" placeholder="Enter your name" name="name">
+							  			<div class="error-hint hidden1">Your name is required.</div>
+                            		</div>
+                            		<div class="form-group">
+										<label>Number :</label>
+                              			<input type="text" class="email-bt" id="number" placeholder="Enter your number" name="number">
+							  			<div class="error-hint hidden1">Your number is invalid.</div>
+                            		</div>
+                            		<div class="form-group">
+										<label>Email :</label>
+                              			<input type="text" class="email-bt" id="email" placeholder="Enter your email" name="email">
+							  			<div class="error-hint hidden1">Your email is invalid.</div>
+                            		</div>
+                            		<div class="form-group">
+										<label>Message :</label>
+                                		<textarea class="message-bt" id="message" placeholder="Please enter your message" rows="5" id="comment" name="message"></textarea>
+										<div class="error-hint hidden1">A message is required.</div>
+                            		</div>
+									<div class="send_btn">
+									<button class="main_bt">Send</button>
+							   		</div>
+								</form>
+								<div class="hidden" id="thanks-message">
+									Thank you for your message!
+									We will get back to you as soon as possible.
+								</div> 
+                       		</div>                    
+                    	</div>
+    				</div>
     			</div>
     			<div class="col-md-6">
     				<div class="shop_banner">
@@ -509,36 +527,40 @@
       <script src="js/owl.carousel.js"></script>
       <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
       <script>
-         $(document).ready(function(){
-         $(".fancybox").fancybox({
-         openEffect: "none",
-         closeEffect: "none"
-         });
+        $(document).ready(function(){
+        	$(".fancybox").fancybox({
+        	openEffect: "none",
+        	closeEffect: "none",
+        });
          
          
-$('#myCarousel').carousel({
-            interval: false
+			$('#myCarousel').carousel({
+            	interval: false
         });
 
         //scroll slides on swipe for touch enabled devices
 
-        $("#myCarousel").on("touchstart", function(event){
+        	$("#myCarousel").on("touchstart", function(event){
+				var yClick = event.originalEvent.touches[0].pageY;
 
-            var yClick = event.originalEvent.touches[0].pageY;
-            $(this).one("touchmove", function(event){
+            	$(this).one("touchmove", function(event){
 
-                var yMove = event.originalEvent.touches[0].pageY;
-                if( Math.floor(yClick - yMove) > 1 ){
-                    $(".carousel").carousel('next');
-                }
-                else if( Math.floor(yClick - yMove) < -1 ){
-                    $(".carousel").carousel('prev');
-                }
-            });
-            $(".carousel").on("touchend", function(){
-                $(this).off("touchmove");
-            });
-        });
-      </script> 
+                	var yMove = event.originalEvent.touches[0].pageY;
+                	if( Math.floor(yClick - yMove) > 1 ){
+                    	$(".carousel").carousel('next');
+                	}
+                	else if( Math.floor(yClick - yMove) < -1 ){
+                    	$(".carousel").carousel('prev');
+                	}
+            	});
+
+            	$(".carousel").on("touchend", function(){
+                	$(this).off("touchmove");
+            	});
+        	});
+		});
+
+    	</script> 
+		<script src="js/form.js"></script>
    </body>
 </html>

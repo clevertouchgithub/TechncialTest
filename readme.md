@@ -15,7 +15,7 @@ I have not removed the float right. I assume this is supposed to be off-centre t
 Kind regards,
 
 James
-
+.
 
 
 

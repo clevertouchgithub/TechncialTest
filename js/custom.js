@@ -370,3 +370,74 @@ $(function () {
 
 
 });
+
+
+//Scroll Function
+
+function smoothScroll(target, duration){
+	var target = document.querySelector(target);
+	var targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
+	var startPosition = window.pageYOffset;
+	var distance = targetPosition - startPosition;
+	var startTime = null;
+  
+	function animation(currentTime){
+	  if( startTime === null ) startTime = currentTime;
+	  var timeElapsed = currentTime - startTime;
+	  var run = ease(timeElapsed, startPosition, distance, duration)
+	  window.scrollTo(0,run);
+	  if(timeElapsed < duration) requestAnimationFrame(animation); 
+  }
+  
+  function ease (t, b, c, d) {
+	  t /= d /2;
+	  if (t < 1) return c / 2 * t * t + b;
+	  t--;
+	  return -c / 2 * (t * (t - 2) - 1) + b;
+  }
+  
+  requestAnimationFrame(animation);
+  
+  }
+
+
+// Fibonacci
+
+list = []
+list[0] = 0
+list[1] = 1
+function fib(length) {
+    for (let i = 2; i < length; i++) {
+        var inc = list.slice(i-1)[0] + list.slice(i-2)[0];
+        list.push(inc)
+    }
+	string = document.getElementById("fib");
+	string.innerHTML = list
+	// console.log(list)
+
+}
+
+fib(5);
+
+
+
+//JS form submit 
+
+form_btn = document.getElementById("main_bt")
+
+form_btn.addEventListener("click", submit_form);
+
+function submit_form() {
+	document.getElementById("mainForm").submit();
+
+
+}
+
+//Scroll page on redirect from PHP handler
+if (window.location.search.indexOf('success=true') > -1) {
+	document.getElementById("form_container").style.display = "none";
+	document.getElementById("contact_title").style.display = "none";
+	document.getElementById("thankyou").style.display = "block";
+	
+    smoothScroll('#thankyou', 500);
+}

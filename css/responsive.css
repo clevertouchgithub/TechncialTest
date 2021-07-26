@@ -80,8 +80,18 @@
     #collapseFilter.d-md-block {
         padding: 30px 0px;
     }
+
+
 }
 
+@media only screen and (max-width: 767px) {
+
+.seemore{
+    margin: auto;
+    display: block;
+}
+
+}
 
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
 
@@ -132,8 +142,12 @@
     .lorem_text { display: none;}
     .buy_bt { display: none;}
     .more_bt {display: none;}
-    .star_icon { width: 23%; }
-    .seemore_bt { width: 55%; }
+    /* .star_icon { width: 23%; } */
+    .seemore_bt { 
+        width: 100%;
+
+        margin: 20px 0;
+     }
     .sport_text { width: 50%; }
     .left_part { padding-left: 10px;}
     .massage-bt { height: 160px; padding: 55px 20px 10px 20px; }
@@ -177,7 +191,7 @@ width: 30%;
 .page_no { width: 40%; }
 .mens_taital_2 { margin-top: 100px;}
 .sport_text { width: 30%; } 
-.star_icon { width: 30%; }
+/* .star_icon { width: 30%; } */
 .footer-logo { font-size: 10pt;}
 .map_text { padding-left: 9px; }
 .mail_section li { padding-right: 28px;}
@@ -246,7 +260,7 @@ width: 30%;
 .mens_taital_2 { display: none;}
 .new_bt { width: 30%;}
 .sport_text { width: 37%; }
-.star_icon { width: 40%; }
+/* .star_icon { width: 40%; } */
 .seemore_bt { width: 45%; }
 .sale_text { font-size: 36pt;}
 .seemore { width: 70%; }
@@ -335,7 +349,10 @@ width: 55%;
 .shoes_price { font-size: 13pt; padding-top: 17px;}
 .buy_text { width: 50%; }
 .shop_banner { margin-top: 20px;}
-
+.seemore_bt { 
+    width: 100%;
+    margin: 20px 0;
+}
 .navbar-light .navbar-toggler {
     color: #ffffff;
     border-color: #fff;
@@ -450,7 +467,7 @@ ul.link li {
 .shop_banner { margin-top: 20px;}
 .footer-logo { padding-top: 20px;}
 .mail_section li { padding-top: 20px;}
-.subscribr_bt { width: 55%; }
+/* .subscribr_bt { width: 55%; } */
 .out_shop_bt {
     width: 100%;
     font-size: 14pt;

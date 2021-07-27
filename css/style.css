@@ -223,22 +223,30 @@ button {
 
 .padding_0{ width: 100%; float: left; }
 
-.mens_taital{ width: 100%; float: left; color: #908d92; font-size: 14pt; }
+.mens_taital { 
+    width: 100%; 
+    float: left; 
+    color: #908d92; 
+    font-size: 14pt; 
+    visibility: hidden; /* added visibility tag so that area can be used in future */
+}
+    
 .mens_taital_2 {
     width: 100%;
     float: left;
     color: #908d92;
     font-size: 14pt;
     margin-top: 150px;
+    visibility: hidden; /* added visibility tag so that area can be used in future */
 }
 .page_no {
     width: 28%;
-    /* margin: 0 auto; */
+    /*margin: 0 auto; */
     text-align: center;
     color: #ffffff;
     border: 2px solid #8d8791;
     border-radius: 30px;
-    margin-top: 150px;
+    margin-top: 200px;
     padding-bottom: 10px;
     display: inline-block;
     padding-top: 12px;
@@ -286,9 +294,9 @@ button {
 }
 
 .buy_bt{ 
-	width: 10% !important;
+	width: 32% !important;
 	height: 50px;
-	color: #fffff;
+	color: #ffffff;
 	background-color: #ff4e5b;
 	color: #ffffff;
 	font-size: 16pt;
@@ -363,7 +371,7 @@ body{
     display:block; margin-bottom:5px; border:1px solid #00a199; 
     margin-bottom: 5px;}
     
-}
+
 .carousel-indicators li.active{
     margin-bottom:5px; background:#00a199;
     
@@ -409,7 +417,6 @@ body{
 	text-align: center;
 	color: #ffffff;
 	height: 50px;
-	margin-left: -60px;
 }
 
 .shoes-img{
@@ -485,6 +492,8 @@ body{
     padding-bottom: 70px;
 }
 .shoes-img3{ width: 100%; float: left; text-align: center; }
+
+.shoes
 
 .collection_text{ 
     width: 100%; 
@@ -609,9 +618,9 @@ body{
     margin-bottom: 2rem;
 }
 
-.email-bt {
+/*.email-bt {
 
-}
+}*/
 
 .massage-bt {
     border: 1px solid #000;

@@ -250,7 +250,7 @@ button {
 
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
-    font-size: 16pt;
+    font-size: 12pt;
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
@@ -286,7 +286,7 @@ button {
 }
 
 .buy_bt{ 
-	width: 10% !important;
+	width: 32% !important;
 	height: 50px;
 	color: #fffff;
 	background-color: #ff4e5b;
@@ -395,7 +395,7 @@ body{
 .about-img {
     width: 100%;
     background-color: #ffffff;
-    height: auto;
+    height: 85%;
     margin-left: 64px;
     box-shadow: 0px 0px 10px 0px;
     position: relative;
@@ -409,7 +409,7 @@ body{
 	text-align: center;
 	color: #ffffff;
 	height: 50px;
-	margin-left: -60px;
+	/* margin-left: -60px; */
 }
 
 .shoes-img{
@@ -464,6 +464,7 @@ body{
 }
 
 .seemore_bt{
+    display: block;
 	width: 32%;
 	height: 50px;
 	color: #ffffff;
@@ -472,6 +473,8 @@ body{
 	font-size: 16pt;	
 	margin-top: 35px;
     margin-bottom: 90px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .collectipn_section_3{ width: 100%; float: left; padding-top: 0px;}

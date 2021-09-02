@@ -153,6 +153,26 @@ $(function () {
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 	$.validator.setDefaults({
 		submitHandler: function () {
+            
+            //reload page
+            window.location.href = "index.html#submitted";
+            
+            //scroll to form
+            var element = document.getElementById("contact-form");
+
+            element.scrollIntoView();
+            element.scrollIntoView(false);
+            element.scrollIntoView({block: "end"});
+            element.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+            
+            //thank you message
+            var contactForm = document.getElementById("contact-form");
+			var emailBox = document.getElementById("emailbox");
+
+			contactForm.style.display = "none";
+			emailBox.innerHTML = '<h3 class="align-center form-complete">Thank you for submitting the form.<br>We shall be in touch soon.</h3>';            
+            
+            //testing code
 			alert("submitted!");
 		}
 	});
@@ -170,9 +190,9 @@ $(function () {
 				agree: "required"
 			},
 			messages: {
-				firstname: "Please enter your firstname",
+				firstname: "Please enter your first name",
 				email: "Please enter a valid email address",
-				lastname: "Please enter your lastname",
+				lastname: "Please enter your last name",
 				username: {
 					required: "Please enter a username",
 					minlength: "Your username must consist of at least 2 characters"

@@ -248,6 +248,7 @@ button {
     background-color: transparent !important;
 }
 
+
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
     font-size: 16pt;
@@ -288,7 +289,7 @@ button {
 .buy_bt{ 
 	width: 10% !important;
 	height: 50px;
-	color: #fffff;
+	color: #fff;
 	background-color: #ff4e5b;
 	color: #ffffff;
 	font-size: 16pt;
@@ -361,9 +362,9 @@ body{
 }
 .carousel-indicators li{
     display:block; margin-bottom:5px; border:1px solid #00a199; 
-    margin-bottom: 5px;}
-    
-}
+    margin-bottom: 5px;
+}   
+
 .carousel-indicators li.active{
     margin-bottom:5px; background:#00a199;
     
@@ -409,7 +410,6 @@ body{
 	text-align: center;
 	color: #ffffff;
 	height: 50px;
-	margin-left: -60px;
 }
 
 .shoes-img{
@@ -532,8 +532,24 @@ body{
 
 }
 
+.layout_padding.gallery_section > .container > .row_best_shoes:first-child, .row_sports_shoes {
+    display: flex;
+}
+
 .best_shoes {
-    width: 100%;
+    
+    max-width: 90%;
+    float: left;
+    background-color: #ffffff;
+    height: auto;
+    padding: 20px 20px 20px 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sport_shoes {
+    
+    max-width: 90%;
     float: left;
     background-color: #ffffff;
     height: auto;
@@ -543,6 +559,7 @@ body{
 }
 
 .best_text{
+    
 	width: 100%;
 	float: left;
 	font-size: 14pt;
@@ -609,8 +626,10 @@ body{
     margin-bottom: 2rem;
 }
 
-.email-bt {
-
+#thank-you-message {
+    display: none;
+    margin-top: 200px;
+    margin-left: 100px;
 }
 
 .massage-bt {
@@ -627,7 +646,7 @@ body{
     margin: 0 auto;
     text-align: center;
 }
-.main_bt {
+#submit_btn {
     background: #ff4e5b;
     border: none;
     width: 170px;

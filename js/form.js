@@ -25,6 +25,17 @@ function handleSubmit(e) {
     emailBox.innerHTML = message;
 
     // formElement.submit();
+
+    // window.location.reload()
+
+    // emailBox.scrollIntoView()
+
+   
+
+    
+
+    
+    
     
 }
 

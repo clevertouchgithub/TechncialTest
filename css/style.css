@@ -277,7 +277,7 @@ button {
 	color: #fdfcfc;
 	line-height: 40px;
 }
-.lorem_text{
+.lorem_text {
 	width: 100%;
 	float: left;
 	font-size: 13pt;
@@ -289,7 +289,7 @@ button {
 	width: 32% !important;
     height: 50px;
 	color: #fff;
-	background-color: #ff4e5b;
+	background-color: #c2b0b1;
 	font-size: 16pt;
  }
 
@@ -360,9 +360,9 @@ body{
 }
 .carousel-indicators li{
     display:block; margin-bottom:5px; border:1px solid #00a199; 
-    margin-bottom: 5px;}
-    
+    margin-bottom: 5px;
 }
+
 .carousel-indicators li.active{
     margin-bottom:5px; background:#00a199;
     
@@ -609,7 +609,7 @@ body{
 }
 
 .email-bt {
-
+    
 }
 
 .massage-bt {

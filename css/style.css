@@ -257,8 +257,13 @@ button {
     color: #db5660;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0.9rem;
-    padding-left: 1.6rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.navbar-nav {
+    justify-content: space-between;
+    flex-grow: 1;
 }
 
 	

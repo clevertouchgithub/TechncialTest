@@ -402,13 +402,14 @@ body{
 }
 .new_bt{
 	width: 18%;
-	float: left;
 	background-color: #000;
 	font-size: 14pt;
 	text-align: center;
 	color: #ffffff;
 	height: 50px;
-	margin-left: -60px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .shoes-img{

@@ -514,7 +514,7 @@
          $(".fancybox").fancybox({
          openEffect: "none",
          closeEffect: "none"
-         });
+         })});
          
          
 $('#myCarousel').carousel({
@@ -535,11 +535,11 @@ $('#myCarousel').carousel({
                 else if( Math.floor(yClick - yMove) < -1 ){
                     $(".carousel").carousel('prev');
                 }
-            });
+			});
             $(".carousel").on("touchend", function(){
                 $(this).off("touchmove");
             });
-        });
+		});
       </script> 
    </body>
 </html>

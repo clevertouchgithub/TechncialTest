@@ -285,12 +285,11 @@ button {
 	margin-left: 0px;
 }
 
-.buy_bt{ 
-	width: 10% !important;
-	height: 50px;
-	color: #fffff;
+.buy_bt { 
+	width: 32% !important;
+    height: 50px;
+	color: #fff;
 	background-color: #ff4e5b;
-	color: #ffffff;
 	font-size: 16pt;
  }
 

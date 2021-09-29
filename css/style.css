@@ -238,7 +238,7 @@ button {
     color: #ffffff;
     border: 2px solid #8d8791;
     border-radius: 30px;
-    margin-top: 150px;
+    margin-top: 184px;
     padding-bottom: 10px;
     display: inline-block;
     padding-top: 12px;
@@ -277,7 +277,7 @@ button {
 	color: #fdfcfc;
 	line-height: 40px;
 }
-.lorem_text{
+.lorem_text {
 	width: 100%;
 	float: left;
 	font-size: 13pt;
@@ -285,12 +285,11 @@ button {
 	margin-left: 0px;
 }
 
-.buy_bt{ 
-	width: 10% !important;
-	height: 50px;
-	color: #fffff;
+.buy_bt { 
+	width: 32% !important;
+    height: 50px;
+	color: #fff;
 	background-color: #ff4e5b;
-	color: #ffffff;
 	font-size: 16pt;
  }
 
@@ -361,9 +360,9 @@ body{
 }
 .carousel-indicators li{
     display:block; margin-bottom:5px; border:1px solid #00a199; 
-    margin-bottom: 5px;}
-    
+    margin-bottom: 5px;
 }
+
 .carousel-indicators li.active{
     margin-bottom:5px; background:#00a199;
     
@@ -403,13 +402,14 @@ body{
 }
 .new_bt{
 	width: 18%;
-	float: left;
 	background-color: #000;
 	font-size: 14pt;
 	text-align: center;
 	color: #ffffff;
 	height: 50px;
-	margin-left: -60px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .shoes-img{

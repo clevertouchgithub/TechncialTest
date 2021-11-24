@@ -211,7 +211,7 @@ button {
      padding-bottom: 90px;
 }
 
-.header_section{
+.header_section {
 	width: 100%;
 	float: left;
 	background-image: url(../images/banner.png);
@@ -221,9 +221,18 @@ button {
 	background-repeat: no-repeat;
 }
 
-.padding_0{ width: 100%; float: left; }
+.padding_0 { 
+    width: 100%; 
+    float: left; 
+}
 
-.mens_taital{ width: 100%; float: left; color: #908d92; font-size: 14pt; }
+.mens_taital { 
+    width: 100%; 
+    float: left; 
+    color: #908d92; 
+    font-size: 14pt; 
+}
+
 .mens_taital_2 {
     width: 100%;
     float: left;
@@ -231,6 +240,7 @@ button {
     font-size: 14pt;
     margin-top: 150px;
 }
+
 .page_no {
     width: 28%;
     /* margin: 0 auto; */
@@ -244,40 +254,46 @@ button {
     padding-top: 12px;
     margin-left: 30px;
 }
+
 .bg-light {
     background-color: transparent !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
-    font-size: 16pt;
+    font-size: 16px;
 }
 
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
     color: #db5660;
 }
+
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0.9rem;
     padding-left: 1.6rem;
 }
-
 	
-.last{ padding-left: 30px !important; }
-.banner_text{
+.last { 
+    padding-left: 30px !important; 
+}
+
+.banner_text {
 	width: 100%;
 	float: left;
 	font-size: 30pt;
 	color: #db5660;
 }
 
-.mens_text{
+.mens_text {
 	width: 100%;
 	float: left;
 	font-size: 39pt;
 	color: #fdfcfc;
 	line-height: 40px;
 }
-.lorem_text{
+
+.lorem_text {
 	width: 100%;
 	float: left;
 	font-size: 13pt;
@@ -285,24 +301,24 @@ button {
 	margin-left: 0px;
 }
 
-.buy_bt{ 
-	width: 10% !important;
+.buy_bt { 
+	width: 30%;
 	height: 50px;
-	color: #fffff;
+	color: #ffffff;
 	background-color: #ff4e5b;
 	color: #ffffff;
 	font-size: 16pt;
- }
+}
 
- .more_bt{
-	width: 32%;
+.more_bt{
+	width: 30%;
 	height: 50px;
 	color: #ffffff;
 	background-color: #ffffff;
 	color: #ff4e5b;
 	font-size: 16pt;
 	margin-left: 25px;
- }
+}
 
 .banner_taital{
 	width: 100%;
@@ -314,12 +330,14 @@ body{
     width:100%;
     height:100%;
 }
+
 .carousel-inner,.carousel,.carousel-item,.container,.fill {
     height:100%;
     width:100%;
     background-position:center center;
     background-size:cover;
 }
+
 .slide-wrapper{display:inline;}
 .slide-wrapper .container{padding:0;}
 
@@ -359,11 +377,14 @@ body{
     -o-transform: rotate(90deg);
     transform: rotate(90deg);
 }
-.carousel-indicators li{
-    display:block; margin-bottom:5px; border:1px solid #00a199; 
-    margin-bottom: 5px;}
-    
+
+.carousel-indicators li {
+    display:block; 
+    margin-bottom:5px; 
+    border:1px solid #00a199; 
+    margin-bottom: 5px;
 }
+
 .carousel-indicators li.active{
     margin-bottom:5px; background:#00a199;
     
@@ -395,12 +416,14 @@ body{
 .about-img {
     width: 100%;
     background-color: #ffffff;
+    float: left;
     height: auto;
     margin-left: 64px;
     box-shadow: 0px 0px 10px 0px;
     position: relative;
     z-index: 1;
 }
+
 .new_bt{
 	width: 18%;
 	float: left;
@@ -409,7 +432,6 @@ body{
 	text-align: center;
 	color: #ffffff;
 	height: 50px;
-	margin-left: -60px;
 }
 
 .shoes-img{
@@ -430,18 +452,32 @@ body{
     border-bottom: 1px solid#000;
     margin: 0 auto;
 }
-.dolar_text{
+
+.dolar_text {
 	width: 100%;
 	float: left;
 	text-align:center;
 	color: #000;
 	font-size: 20pt;
 }
-.star_icon{ width: 25%; margin: 0 auto; text-align: center; }
-.star_icon ul{ margin: 0px; padding: 0px;} 
-.star_icon li{ float:left; padding-right:10px; padding-bottom: 25px;}
+.star_icon { 
+    width: 25%; 
+    margin: 0 auto; 
+    text-align: center; 
+}
 
-.about-img2{
+.star_icon ul { 
+    margin: 0px; 
+    padding: 0px;
+} 
+
+.star_icon li { 
+    float:left; 
+    padding-right:10px; 
+    padding-bottom: 25px;
+}
+
+.about-img2 {
 	width: 100%;
 	float: left;
 	background-image: url(../images/about-img2.png);
@@ -452,9 +488,13 @@ body{
 }
 
 
-.shoes_img{ width: 100%; float: left; padding-top: 30px; }
+.shoes_img { 
+    width: 100%; 
+    float: left; 
+    padding-top: 30px; 
+}
 
-.shoes-img2{
+.shoes-img2 {
 	width: 100%;
 	float: left;
 	text-align: center;
@@ -463,7 +503,7 @@ body{
 	margin: 0px
 }
 
-.seemore_bt{
+.seemore_bt {
 	width: 32%;
 	height: 50px;
 	color: #ffffff;
@@ -474,7 +514,12 @@ body{
     margin-bottom: 90px;
 }
 
-.collectipn_section_3{ width: 100%; float: left; padding-top: 0px;}
+.collectipn_section_3 { 
+    width: 100%; 
+    float: left; 
+    padding-top: 0px;
+}
+
 .racing_shoes {
     width: 100%;
     float: left;
@@ -484,9 +529,14 @@ body{
     background-size: 100%;
     padding-bottom: 70px;
 }
-.shoes-img3{ width: 100%; float: left; text-align: center; }
 
-.collection_text{ 
+.shoes-img3 { 
+    width: 100%; 
+    float: left; 
+    text-align: center; 
+}
+
+.collection_text { 
     width: 100%; 
     float: left; 
     color: #ffffff; 
@@ -497,7 +547,7 @@ body{
     padding: 30px 0px;  
 }
 
-.sale_text{
+.sale_text {
 	width: 100%;
 	float: left;
 	font-size: 45pt;
@@ -505,16 +555,15 @@ body{
 	line-height: 75px;
 }
 
-.number_text{
+.number_text {
 	width: 100%;
 	float: left;
 	font-size: 45pt;
 	color: #ed2540;
 	line-height: 75px;
-
 }
 
-.seemore{
+.seemore {
 	width: 50%;
 	height: 50px;
 	color: #ffffff;
@@ -524,12 +573,16 @@ body{
 	margin-top: 35px;
 }
 
-.gallery_section{
+.gallery_section {
 	width: 100%;
 	float: left;
 	background-color: #ff4e5b;
 	height: auto;
+}
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .best_shoes {
@@ -537,7 +590,7 @@ body{
     float: left;
     background-color: #ffffff;
     height: auto;
-    padding: 20px 20px 20px 0px;
+    padding: 20px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -550,23 +603,25 @@ body{
 	text-align: center;
     margin-left: 0px;
 }
+
 .shoes_icon{
 	width: 100%;
-	float: left;
 	text-align: center;
-	min-height: 220px;
+	min-height: 200px;
 }
 
 .star_text{
 	width: 100%;
 	float: left;
 }
+
 .left_part {
     width: 60%;
     float: left;
     padding-left: 15px;
     padding-top: 15px;
 }
+
 .left_part ul{ margin: 0px; padding: 0px; }
 .left_part li{ float: left; padding-left: 10px; }
 .right_part{ width: 40%; float: left; }
@@ -605,6 +660,7 @@ body{
     padding: 20px 20px;
     opacity: 0.80;
 }
+
 .form-group {
     margin-bottom: 2rem;
 }
@@ -627,6 +683,7 @@ body{
     margin: 0 auto;
     text-align: center;
 }
+
 .main_bt {
     background: #ff4e5b;
     border: none;
@@ -635,7 +692,8 @@ body{
     font-size: 26px;
     color: #ffffff;
 }
-.ram{
+
+.ram {
 	width: 100%; 
 	float: left;
 }
@@ -644,7 +702,7 @@ a:hover {
     color: #fff;
 }
 
-.shop_banner{
+.shop_banner {
 	width: 100%;
 	float: left;
 	background-image: url(../images/shop-banner.png);
@@ -658,6 +716,7 @@ a:hover {
     padding-top: 205px;
     padding-bottom: 205px;
 }
+
 .out_shop_bt {
     width: 40%;
     margin: 0 auto;
@@ -681,6 +740,7 @@ a:hover {
     width: 100%;
     float: left;
 }
+
 .footer-logo {
     float: left;
     font-size: 12pt;
@@ -693,17 +753,20 @@ a:hover {
     color: #fdfefe;
     padding-right: 35px;
 }
+
 .footer_section_2 {
     width: 100%;
     float: left;
     padding-top: 20px;
 }
+
 .shop_text {
     width: 100%;
     float: left;
     font-size: 28px;
     color: #ebebeb;
 }
+
 .dummy_text {
     width: 100%;
     float: left;
@@ -713,11 +776,13 @@ a:hover {
     margin-top: 55px;
     line-height: 25px;
 }
+
 .image-icon {
     width: 100%;
     float: left;
     padding-top: 6px;
 }
+
 .pet_text {
     font-size: 12pt;
     color: #ffffff;
@@ -727,6 +792,7 @@ a:hover {
     position: relative;
     padding-left: 20px;
 }
+
 .adderess_text {
     width: 100%;
     float: left;
@@ -745,8 +811,13 @@ a:hover {
     font-family: Poppins;
 }
 
-.copyright a{ color: #ffffff; }
-.copyright a:hover{ color: #000; }
+.copyright a { 
+    color: #ffffff; 
+}
+
+.copyright a:hover { 
+    color: #000; 
+}
 
 .map_text {
     padding-left: 15px;
@@ -769,23 +840,26 @@ a:hover {
 }
 
 .subscribr_bt {
-    width: 80%;
+    width: 100%;
     float: right;
     background-color: #ff4e5b;
     font-size: 13pt;
     height: 50px;
-    color: rgb(0 0 0 / 1%);;
+    color: #ffffff;
 }
-
 
 .about_main {
     width: 100%;
     float: left;
-        padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .header_main {
     width: 100%;
     height: auto;
     background: #0c0116;
+}
+
+#form-message {
+    display: none;
 }

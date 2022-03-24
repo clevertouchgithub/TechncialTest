@@ -539,9 +539,10 @@ body {
   float: left;
   background-color: #eae7e7;
   height: auto;
-  padding-top: 70px;
+  /* padding-top: 70px; */
+  /* padding-bottom: 70px; */
+  padding: 70px 30px;
   background-size: 100%;
-  padding-bottom: 70px;
 }
 .shoes-img3 {
   width: 100%;

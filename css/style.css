@@ -566,6 +566,7 @@ body {
   font-size: 45pt;
   color: #ed2540;
   line-height: 75px;
+  text-transform: uppercase;
 }
 
 .number_text {
@@ -591,6 +592,11 @@ body {
   float: left;
   background-color: #ff4e5b;
   height: auto;
+}
+
+.gallery_section_card {
+  flex: 30% 1 1;
+  margin: 0 5px;
 }
 
 .best_shoes {

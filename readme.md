@@ -17,7 +17,7 @@ Your tasks to complete are:
    container~~
 4. ~~Add another carousel item~~
 5. ~~Add another item to the page navigation~~
-6. In the new arrivals products section, change the layout to show the shoes in rows of three.
+6. ~~In the new arrivals products section, change the layout to show the shoes in rows of three.~~
 7. Using javascript, submit the form via javascript, redirecting the page back to itself. Scroll the
    page to the form, remove the form, and show a thank you message where the form once was.
 

@@ -286,7 +286,8 @@ button {
 }
 
 .buy_bt{ 
-	width: 10% !important;
+	/* width: 10% !important; */
+	width: 32%;
 	height: 50px;
 	color: #fffff;
 	background-color: #ff4e5b;
@@ -393,7 +394,8 @@ body{
 }
 
 .about-img {
-    width: 100%;
+    float: left;
+    width: 100%;    
     background-color: #ffffff;
     height: auto;
     margin-left: 64px;
@@ -402,21 +404,25 @@ body{
     z-index: 1;
 }
 .new_bt{
+    display: block;
+    margin: 25px auto;
+    clear: both;
 	width: 18%;
-	float: left;
+	/* float: right; */
 	background-color: #000;
 	font-size: 14pt;
 	text-align: center;
 	color: #ffffff;
 	height: 50px;
-	margin-left: -60px;
+	/* margin-left: -60px; */
 }
 
 .shoes-img{
 	width: 100%;
 	float: left;
 	text-align: center;
-	padding-top: 40px;
+	/* padding-top: 40px; */
+    padding-top: 100px;
 	padding-bottom: 40px;
 	margin: 0px;
 }
@@ -442,8 +448,8 @@ body{
 .star_icon li{ float:left; padding-right:10px; padding-bottom: 25px;}
 
 .about-img2{
-	width: 100%;
 	float: left;
+	width: 100%;
 	background-image: url(../images/about-img2.png);
 	height: auto;
 	box-shadow: 0px 0px 10px 0px;
@@ -464,14 +470,17 @@ body{
 }
 
 .seemore_bt{
+    display: block;
+    clear: both;
+    margin: 25px auto;
 	width: 32%;
 	height: 50px;
 	color: #ffffff;
 	background-color: #ff4e5b;
 	color: #ffffff;
 	font-size: 16pt;	
-	margin-top: 35px;
-    margin-bottom: 90px;
+	/* margin-top: 35px;
+    margin-bottom: 90px; */
 }
 
 .collectipn_section_3{ width: 100%; float: left; padding-top: 0px;}

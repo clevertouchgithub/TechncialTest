@@ -654,4 +654,10 @@
   .about-img2 {
     margin-left: 0px;
   }
+
+  .gallery_section_card {
+    flex: initial;
+    margin: inherit;
+    padding: 0 16px;
+  }
 }

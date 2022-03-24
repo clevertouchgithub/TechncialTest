@@ -678,7 +678,7 @@ body {
   float: right;
   background-color: #14120e;
   height: auto;
-  padding: 20px 20px;
+  padding: 40px 20px;
   opacity: 0.8;
 }
 .form-group {
@@ -774,6 +774,9 @@ a:hover {
   float: left;
   padding-top: 20px;
 }
+.footer_section_2 li {
+  float: initial;
+}
 .shop_text {
   width: 100%;
   float: left;
@@ -854,7 +857,7 @@ a:hover {
   background-color: #ff4e5b;
   font-size: 13pt;
   height: 50px;
-  color: rgb(0 0 0 / 1%);
+  /* color: rgb(0 0 0 / 100%); */
 }
 
 .about_main {

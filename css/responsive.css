@@ -122,12 +122,16 @@
   .mean-container .mean-nav ul li a.mean-expand {
     top: 0;
   }
-
+  .banner_taital {
+    margin-top: 30px;
+  }
   .banner_text {
     font-size: 20pt;
+    text-align: center;
   }
   .mens_text {
     font-size: 25pt;
+    text-align: center;
   }
   .lorem_text {
     display: none;

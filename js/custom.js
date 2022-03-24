@@ -153,7 +153,7 @@ $(function () {
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
   $.validator.setDefaults({
     submitHandler: function () {
-      alert('submitted!');
+      // alert('submitted!');
     },
   });
 

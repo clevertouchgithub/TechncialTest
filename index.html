@@ -552,7 +552,7 @@
     <!-- New Arrivals section end -->
 
     <!-- contact section start -->
-    <div class="layout_padding contact_section">
+    <div class="layout_padding contact_section" id="contact-form-section">
       <div class="container">
         <h1 class="new_text"><strong>Contact Now</strong></h1>
       </div>
@@ -561,31 +561,31 @@
           <div class="col-md-6">
             <div class="email_box">
               <div class="input_main">
-                <div class="container">
-                  <form action="/action_page.php">
+                <div class="container" id="contact-form-container">
+                  <form id="contact-form">
                     <div class="form-group">
-                      <input type="text" class="email-bt" placeholder="Name" name="Name" />
+                      <input type="text" class="email-bt" placeholder="Name" name="name" />
                     </div>
                     <div class="form-group">
-                      <input type="text" class="email-bt" placeholder="Phone Numbar" name="Name" />
+                      <input type="text" class="email-bt" placeholder="Phone Number" name="phone" />
                     </div>
                     <div class="form-group">
-                      <input type="text" class="email-bt" placeholder="Email" name="Email" />
+                      <input type="text" class="email-bt" placeholder="Email" name="email" />
                     </div>
 
                     <div class="form-group">
                       <textarea
                         class="massage-bt"
-                        placeholder="Massage"
+                        placeholder="Message"
                         rows="5"
                         id="comment"
-                        name="Massage"
+                        name="message"
                       ></textarea>
                     </div>
+                    <div class="send_btn">
+                      <button type="submit" class="main_bt">Send</button>
+                    </div>
                   </form>
-                </div>
-                <div class="send_btn">
-                  <button class="main_bt">Send</button>
                 </div>
               </div>
             </div>
@@ -749,6 +749,44 @@
       });
     </script>
     <!-- form submission -->
-    <script></script>
+    <script>
+      const searchParams = new URLSearchParams(document.location.search);
+      const contactFormIsSubmitted = searchParams.get('submitted');
+
+      const contactForm = document.querySelector('#contact-form');
+
+      if (contactFormIsSubmitted) {
+        // get height of form and hide it
+        const formHeight = Math.floor(contactForm.getBoundingClientRect().height);
+        contactForm.hidden = true;
+        // create message element and style it
+        const tyMessageElement = document.createElement('div');
+        tyMessageElement.textContent = 'Thank your for your message!';
+        tyMessageElement.style.height = `${formHeight}px`;
+        tyMessageElement.style.textAlign = 'center';
+        tyMessageElement.style.color = 'white';
+        tyMessageElement.style.fontSize = '24px';
+        tyMessageElement.style.display = 'flex';
+        tyMessageElement.style.justifyContent = 'center';
+        tyMessageElement.style.alignItems = 'center';
+        // appending
+        const contactFormContainer = document.querySelector('#contact-form-container');
+        contactFormContainer.appendChild(tyMessageElement);
+      }
+
+      contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        // in a real application this would be replaced by a fetch call to send the data to the server
+        console.log({
+          name: e.target.name.value,
+          email: e.target.email.value,
+          phone: e.target.phone.value,
+          message: e.target.message.value,
+        });
+
+        location.assign(`${location}?submitted=true#contact-form-section`);
+      });
+    </script>
   </body>
 </html>

@@ -636,7 +636,10 @@
     padding-top: 20px;
   }
   .subscribr_bt {
+    float: initial;
+    display: block;
     width: 55%;
+    margin: auto;
   }
   .out_shop_bt {
     width: 100%;

@@ -15,7 +15,7 @@ Your tasks to complete are:
    the other elements does not change.~~
 3. ~~In the new collection area, make the black "New" button align with the top left of the shoe
    container~~
-4. Add another carousel item
+4. ~~Add another carousel item~~
 5. Add another item to the page navigation
 6. In the new arrivals products section, change the layout to show the shoes in rows of three.
 7. Using javascript, submit the form via javascript, redirecting the page back to itself. Scroll the

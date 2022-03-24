@@ -436,11 +436,8 @@ body {
   z-index: 1;
 }
 .new_bt {
-  display: block;
-  margin: 25px auto;
-  clear: both;
   width: 18%;
-  /* float: right; */
+  /* float: left; */
   background-color: #000;
   font-size: 14pt;
   text-align: center;

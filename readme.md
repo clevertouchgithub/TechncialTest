@@ -11,10 +11,10 @@ I would expect these tasks to take you between 45 minutes and 1 hour and 30 minu
 Your tasks to complete are:
 
 1. ~~ Look for issues on the page layout and fix them - There are at least 5~~
-2. Remove the area in the carousel that says "Mens Shoes" but make sure that the positioning of the
-   other elements does not change.
-3. In the new collection area, make the black "New" button align with the top left of the shoe
-   container
+2. ~~Remove the area in the carousel that says "Mens Shoes" but make sure that the positioning of
+   the other elements does not change.~~
+3. ~~In the new collection area, make the black "New" button align with the top left of the shoe
+   container~~
 4. Add another carousel item
 5. Add another item to the page navigation
 6. In the new arrivals products section, change the layout to show the shoes in rows of three.

@@ -256,16 +256,6 @@ width: 30%;
 .buy_text {  width: 45%; }
 .shop_banner { padding: 47px;}
 
-.navbar-light .navbar-toggler {
-    color: #ffffff;
-    border-color: #fff;
-    background: white;
-}
-
-.bg-light {
-    background-color: #0c0116!important;
-    width: 50%;
-}
 .out_shop_bt { width: 60%;}
 .email_box {
     width: 100%; padding: 20px 0px;}
@@ -274,6 +264,28 @@ width: 30%;
 
 
 }
+
+@media (min-width: 576px) and (max-width: 991px){
+    .navbar-collapse {
+        background-color: #0c0116 !important;
+    }
+
+    .navbar-light {
+        justify-content: flex-end;
+        float: right;
+    }
+
+    .nav-item {
+        text-align: right;
+    }
+
+    .navbar-light .navbar-toggler {
+        color:        #ffffff;
+        border-color: rgba(12, 1, 22, 0.5);
+        background:   white;
+    }
+}
+
 
 @media (min-width: 576px) and (max-width: 767px) {
     .last {display: none;}
@@ -336,21 +348,8 @@ width: 55%;
 .buy_text { width: 50%; }
 .shop_banner { margin-top: 20px;}
 
-.navbar-light .navbar-toggler {
-    color: #ffffff;
-    border-color: #fff;
-    background: white;
-}
-
-.bg-light {
-    background-color: #0c0116!important;
-    width: 50%;
-}
 
 .star_icon li { padding-right: 8px;}
-
-
-
 
 
 }
@@ -461,6 +460,10 @@ ul.link li {
 .new_bt { margin-left: 0px; width: 33%;}
 .about-img2 { margin-left: 0px;}
 
+
+    .nav-item.nav-link:hover {
+           color:#0c0116 !important;
+    }
 
 
 }

@@ -415,11 +415,10 @@ body{
 
 .shoes-img{
 	width: 100%;
-	float: left;
+	display: inline-block;
+	margin: 0 auto;
 	text-align: center;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	margin: 0px;
+	padding: 40px 20px;
 }
 
 .sport_text {
@@ -438,9 +437,32 @@ body{
 	color: #000;
 	font-size: 20pt;
 }
-.star_icon{ width: 25%; margin: 0 auto; text-align: center; }
-.star_icon ul{ margin: 0px; padding: 0px;} 
-.star_icon li{ float:left; padding-right:10px; padding-bottom: 25px;}
+
+.star_icon {
+	width:      auto;
+	margin:     0 auto;
+	text-align: center;
+}
+
+.star_icon ul {
+	margin:          0px;
+	padding:         0px;
+	display:         inline-flex;
+	justify-content: center;
+}
+
+.star_icon li {
+	padding: 0 5px 25px 5px;
+	flex:    0 0 auto;
+}
+
+.star_icon li a {
+	display: block;
+}
+
+.star_icon li img {
+	display: block;
+}
 
 .about-img2{
 	width: 100%;
@@ -452,16 +474,14 @@ body{
     margin-top: 74px;
 }
 
-
 .shoes_img{ width: 100%; float: left; padding-top: 30px; }
 
 .shoes-img2{
 	width: 100%;
-	float: left;
+	display: block;
 	text-align: center;
-	padding-top: 100px;
-	padding-bottom: 40px;
-	margin: 0px
+	margin: 0px;
+	padding: 100px 20px 40px;
 }
 
 .seemore_bt{

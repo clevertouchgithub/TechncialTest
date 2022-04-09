@@ -495,7 +495,7 @@ body{
     margin-bottom: 90px;
 }
 
-.collectipn_section_3{ width: 100%; float: left; padding-top: 0px;}
+.collection_section_3{ width: 100%; float: left; padding-top: 0px;}
 .racing_shoes {
     width: 100%;
     float: left;
@@ -505,6 +505,7 @@ body{
     background-size: 100%;
     padding-bottom: 70px;
 }
+
 .shoes-img3{ width: 100%; float: left; text-align: center; }
 
 .collection_text{ 
@@ -515,7 +516,7 @@ body{
     font-weight: bold; 
     font-size: 40px; 
     background-color: #db5660;
-    padding: 30px 0px;  
+    padding: 30px 0;
 }
 
 .sale_text{
@@ -524,6 +525,7 @@ body{
 	font-size: 45pt;
 	color: #ed2540;
 	line-height: 75px;
+	padding:0 15px;
 }
 
 .number_text{
@@ -532,7 +534,7 @@ body{
 	font-size: 45pt;
 	color: #ed2540;
 	line-height: 75px;
-
+	padding:0 15px;
 }
 
 .seemore{
@@ -543,6 +545,7 @@ body{
 	color: #ffffff;
 	font-size: 16pt;	
 	margin-top: 35px;
+	margin-left:15px;
 }
 
 .gallery_section{

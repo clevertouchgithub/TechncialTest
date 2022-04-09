@@ -786,7 +786,12 @@ a:hover {
 .copyright a:hover{ color: #000; }
 
 .map_text {
-    padding-left: 15px;
+	color: #FFFFFF;
+	white-space: nowrap;
+}
+
+a.map_text:hover {
+	color: #ff4e5b;
 }
 
 .delivery_text{
@@ -809,9 +814,9 @@ a:hover {
     width: 80%;
     float: right;
     background-color: #ff4e5b;
+	color: #FFFFFF;
     font-size: 13pt;
     height: 50px;
-    color: rgb(0 0 0 / 1%);;
 }
 
 
@@ -825,4 +830,12 @@ a:hover {
     width: 100%;
     height: auto;
     background: #0c0116;
+}
+
+.social_icon .fa {
+	color: #FFFFFF;
+	font-size: 1.4rem;
+}
+.social_icon a:hover  .fa {
+	color: #ff4e5b;
 }

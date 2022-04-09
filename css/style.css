@@ -286,22 +286,22 @@ button {
 }
 
 .buy_bt{ 
-	width: 10% !important;
+	width: auto !important;
 	height: 50px;
-	color: #fffff;
 	background-color: #ff4e5b;
 	color: #ffffff;
 	font-size: 16pt;
+	padding: 0 1em;
  }
 
  .more_bt{
-	width: 32%;
+	width: auto !important;
 	height: 50px;
-	color: #ffffff;
 	background-color: #ffffff;
 	color: #ff4e5b;
 	font-size: 16pt;
 	margin-left: 25px;
+ 	padding: 0 1em;
  }
 
 .banner_taital{

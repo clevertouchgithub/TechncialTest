@@ -722,6 +722,7 @@ a:hover {
     font-size: 12pt;
     color: #fdfefe;
 }
+.footer-logo img {margin-right: 5px;}
 
 .mail_section li {
     float: left;

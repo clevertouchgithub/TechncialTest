@@ -384,7 +384,7 @@
 						<div class="input_main">
 							<div class="container">
 								<small>Fields marked * are required</small>
-								<form action="/action_page.php">
+								<form action="#contact" id="contact_form" method="post">
 									<div class="form-group">
 										<label for="contact_name">Name*</label>
 										<input type="text" class="email-bt" placeholder="e.g. John Smith" name="contact_name" id="contact_name" required autocomplete="name">
@@ -402,10 +402,10 @@
 										<label for="contact_message">Message*</label>
 										<textarea class="massage-bt" placeholder="Enter your message here..." rows="5" name="contact_message" id="contact_message" required></textarea>
 									</div>
+									<div class="send_btn">
+										<button class="main_bt" type="submit" id="contact_form_button">Send</button>
+									</div>
 								</form>
-							</div>
-							<div class="send_btn">
-								<button class="main_bt" type="submit">Send</button>
 							</div>
 						</div>
 					</div>
@@ -539,6 +539,55 @@
 					  $(this).off("touchmove");
 				  });
 			  });
+
+
+			  // FORM SUBMISSION
+			  let myForm = document.querySelector('#contact_form'),
+					  myFormSubmit = document.querySelector('#contact_form_button'),
+					  contactContainer = document.querySelector('.email_box');
+
+			  //Get current url query parameters
+			  const queryParams = new URLSearchParams(window.location.search);
+
+			  myForm.addEventListener('submit', function( e ) {
+				  //Stop normal posting
+				  e.preventDefault();
+
+				  //Submit the data somewhere via a method
+				  submitData();
+
+				  //Add query parameter, considering if there are any already and redirect to page
+				  queryParams.append('success', '1');
+				  window.top.location = window.location.hostname + window.location.pathname + '?' + queryParams.toString() + '#contact_form';
+				  return false;
+			  });
+
+			  /**
+			   * Function to contain method to submit data via an API
+			   */
+			  function submitData() {
+				  //Get form data
+				  let data = $('#contact_form').serializeArray();
+				  //Submit data via an API here
+				  console.log(data);
+				  //Upon successful response from the API, the success function could be triggered here instead
+			  }
+
+			  /**
+			   * Function to remove form and replace with success message
+			   */
+			  function success() {
+				  let message = document.createElement('p');
+				  message.innerText = 'Success! Your message has been submitted, someone will be in contact with you as soon as possible.'
+				  contactContainer.innerHTML = '';
+				  contactContainer.appendChild(message);
+			  }
+
+			  //If success is in query parameters then run success method
+			  if ( queryParams.get('success') ) {
+				  success();
+			  }
+
 		  });
       </script>
    </body>

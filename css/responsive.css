@@ -337,7 +337,24 @@ width: 55%;
 }
 
 
-.banner_taital { display: none;}
+.banner_taital {
+    margin-top:0;
+}
+.banner_taital .banner_text{
+    line-height: 1.2;
+    font-size: 20pt;
+}
+.banner_taital .mens_text{
+    line-height: 1.2;
+    font-size: 24pt;
+}
+.banner_taital .lorem_text{
+    display: none;
+}
+.banner_taital .buy_bt, .banner_taital .more_bt{
+    font-size: 10pt;
+    height: 40px;
+}
 .padding_0 { display: none;}
 .about-img { margin-left: 0px;}
 .new_bt { margin-left: 0px;}

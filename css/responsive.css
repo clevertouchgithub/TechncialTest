@@ -264,6 +264,17 @@ width: 30%;
 
 
 }
+@media (max-width: 991px){
+    .star_text > * {
+        flex: 0 0 100%;
+        padding-left: 0;
+        display: inline-flex;
+        justify-content: center;
+    }
+    .star_text .shoes_price{
+        text-align: center;
+    }
+}
 
 @media (min-width: 576px) and (max-width: 991px){
     .navbar-collapse {
@@ -496,5 +507,7 @@ ul.link li {
            color:#0c0116 !important;
     }
 
-
+    .gallery_section ul.row {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

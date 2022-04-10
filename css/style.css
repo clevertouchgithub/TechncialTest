@@ -552,17 +552,24 @@ body{
 	float: left;
 	background-color: #ff4e5b;
 	height: auto;
+}
 
+.gallery_section ul.row {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-gap: 15px;
+	grid-template-columns: repeat(3, 1fr);
+	/* Using something like the line below would make it more responsive without need for media queries */
+	/*grid-template-columns: repeat(auto-fit, minmax(250px,1fr));*/ /
 }
 
 .best_shoes {
     width: 100%;
     float: left;
     background-color: #ffffff;
-    height: auto;
-    padding: 20px 20px 20px 0px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    height: 100%;
+    padding: 20px 20px 20px 20px;
 }
 
 .best_text{
@@ -578,26 +585,49 @@ body{
 	float: left;
 	text-align: center;
 	min-height: 220px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .star_text{
 	width: 100%;
 	float: left;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content:   center;
+	justify-content: center;
+	padding-top:     15px;
 }
+
 .left_part {
-    width: 60%;
-    float: left;
-    padding-left: 15px;
-    padding-top: 15px;
+
 }
-.left_part ul{ margin: 0px; padding: 0px; }
-.left_part li{ float: left; padding-left: 10px; }
-.right_part{ width: 40%; float: left; }
-.shoes_price{ 
-	width: 100%; 
-	float: left; 
-	font-size: 22pt; 
-	color: #0f0d10; 
+
+.left_part ul {
+	margin:          0px;
+	padding:         0px;
+	display:         inline-flex;
+	justify-content: center;
+}
+
+.left_part li {
+	float:   left;
+	padding: 0 5px 5px 5px;
+	flex:    0 0 auto;
+}
+
+.right_part {
+	flex:        1 0 auto;
+	margin-left: auto;
+}
+
+.shoes_price {
+	width:      100%;
+	float:      left;
+	font-size:  22pt;
+	color:      #0f0d10;
 	text-align: right;
 }
 

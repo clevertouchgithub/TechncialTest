@@ -274,6 +274,9 @@ width: 30%;
     .star_text .shoes_price{
         text-align: center;
     }
+    .collection_section_2 .col-md-6 + .col-md-6{
+        margin-top: 30px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 991px){
@@ -306,6 +309,7 @@ width: 30%;
         content: '';
         padding-left: 16.666667%;
     }
+
 }
 
 @media (min-width: 576px) and (max-width: 767px) {

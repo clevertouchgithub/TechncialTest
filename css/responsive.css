@@ -286,6 +286,16 @@ width: 30%;
     }
 }
 
+@media (min-width: 767px){
+    .carousel-item .row .col-sm-2 {
+        display: none;
+    }
+    .carousel-item .row:before {
+        display: block;
+        content: '';
+        padding-left: 16.666667%;
+    }
+}
 
 @media (min-width: 576px) and (max-width: 767px) {
     .last {display: none;}

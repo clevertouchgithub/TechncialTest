@@ -179,7 +179,7 @@ width: 30%;
 .sport_text { width: 30%; } 
 .star_icon { width: 30%; }
 .footer-logo { font-size: 10pt;}
-.map_text { padding-left: 9px; }
+
 .mail_section li { padding-right: 28px;}
 .dummy_text { font-size: 10pt;}
 .pet_text { font-size: 10pt; }
@@ -256,22 +256,59 @@ width: 30%;
 .buy_text {  width: 45%; }
 .shop_banner { padding: 47px;}
 
-.navbar-light .navbar-toggler {
-    color: #ffffff;
-    border-color: #fff;
-    background: white;
-}
-
-.bg-light {
-    background-color: #0c0116!important;
-    width: 50%;
-}
 .out_shop_bt { width: 60%;}
 .email_box {
     width: 100%; padding: 20px 0px;}
 
 
 
+
+}
+@media (max-width: 991px){
+    .star_text > * {
+        flex: 0 0 100%;
+        padding-left: 0;
+        display: inline-flex;
+        justify-content: center;
+    }
+    .star_text .shoes_price{
+        text-align: center;
+    }
+    .collection_section_2 .col-md-6 + .col-md-6{
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px){
+    .navbar-collapse {
+        background-color: #0c0116 !important;
+    }
+
+    .navbar-light {
+        justify-content: flex-end;
+        float: right;
+    }
+
+    .nav-item {
+        text-align: right;
+    }
+
+    .navbar-light .navbar-toggler {
+        color:        #ffffff;
+        border-color: rgba(12, 1, 22, 0.5);
+        background:   white;
+    }
+}
+
+@media (min-width: 767px){
+    .carousel-item .row .col-sm-2 {
+        display: none;
+    }
+    .carousel-item .row:before {
+        display: block;
+        content: '';
+        padding-left: 16.666667%;
+    }
 
 }
 
@@ -325,7 +362,24 @@ width: 55%;
 }
 
 
-.banner_taital { display: none;}
+.banner_taital {
+    margin-top:0;
+}
+.banner_taital .banner_text{
+    line-height: 1.2;
+    font-size: 20pt;
+}
+.banner_taital .mens_text{
+    line-height: 1.2;
+    font-size: 24pt;
+}
+.banner_taital .lorem_text{
+    display: none;
+}
+.banner_taital .buy_bt, .banner_taital .more_bt{
+    font-size: 10pt;
+    height: 40px;
+}
 .padding_0 { display: none;}
 .about-img { margin-left: 0px;}
 .new_bt { margin-left: 0px;}
@@ -336,22 +390,13 @@ width: 55%;
 .buy_text { width: 50%; }
 .shop_banner { margin-top: 20px;}
 
-.navbar-light .navbar-toggler {
-    color: #ffffff;
-    border-color: #fff;
-    background: white;
-}
-
-.bg-light {
-    background-color: #0c0116!important;
-    width: 50%;
-}
 
 .star_icon li { padding-right: 8px;}
 
-
-
-
+.email_box {
+    float: none;
+    width: 100%;
+}
 
 }
 
@@ -462,5 +507,11 @@ ul.link li {
 .about-img2 { margin-left: 0px;}
 
 
+    .nav-item.nav-link:hover {
+           color:#0c0116 !important;
+    }
 
+    .gallery_section ul.row {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

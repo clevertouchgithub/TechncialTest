@@ -216,7 +216,7 @@ button {
 	float: left;
 	background-image: url(../images/banner.png);
 	height: auto;
-	padding: 20px 0px;
+	padding: 10px 0px;
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
@@ -257,12 +257,14 @@ button {
     color: #db5660;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0.9rem;
-    padding-left: 1.6rem;
+    padding-right: 0.5rem;
+    padding-left: 0.8rem;
 }
 
 	
-.last{ padding-left: 30px !important; }
+.last{ 
+    padding-left: 30px !important; 
+}
 .banner_text{
 	width: 100%;
 	float: left;
@@ -286,18 +288,16 @@ button {
 }
 
 .buy_bt{ 
-	width: 10% !important;
+	width: 32%;
 	height: 50px;
-	color: #fffff;
-	background-color: #ff4e5b;
 	color: #ffffff;
+	background-color: #ff4e5b;
 	font-size: 16pt;
  }
 
  .more_bt{
 	width: 32%;
 	height: 50px;
-	color: #ffffff;
 	background-color: #ffffff;
 	color: #ff4e5b;
 	font-size: 16pt;
@@ -361,7 +361,7 @@ body{
 }
 .carousel-indicators li{
     display:block; margin-bottom:5px; border:1px solid #00a199; 
-    margin-bottom: 5px;}
+    margin-bottom: 5px;
     
 }
 .carousel-indicators li.active{
@@ -400,6 +400,8 @@ body{
     box-shadow: 0px 0px 10px 0px;
     position: relative;
     z-index: 1;
+    float: left;
+
 }
 .new_bt{
 	width: 18%;
@@ -409,7 +411,6 @@ body{
 	text-align: center;
 	color: #ffffff;
 	height: 50px;
-	margin-left: -60px;
 }
 
 .shoes-img{
@@ -610,7 +611,7 @@ body{
 }
 
 .email-bt {
-
+    width: 100%;
 }
 
 .massage-bt {
@@ -635,6 +636,12 @@ body{
     font-size: 26px;
     color: #ffffff;
 }
+
+.successMessage p{
+    font-size: 26px;
+    line-height: 1.5;
+}
+
 .ram{
 	width: 100%; 
 	float: left;
@@ -749,7 +756,7 @@ a:hover {
 .copyright a:hover{ color: #000; }
 
 .map_text {
-    padding-left: 15px;
+    padding-left: 10px;
 }
 
 .delivery_text{
@@ -769,12 +776,12 @@ a:hover {
 }
 
 .subscribr_bt {
-    width: 80%;
+    width: 100%;
     float: right;
     background-color: #ff4e5b;
     font-size: 13pt;
     height: 50px;
-    color: rgb(0 0 0 / 1%);;
+    color: rgba(0 0 0 1%);
 }
 
 

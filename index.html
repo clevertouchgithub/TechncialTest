@@ -388,7 +388,7 @@
     				<div class="email_box">
                     <div class="input_main">
                        <div class="container">
-                          <form action="/action_page.php" id="contactForm">
+                          <form action="" id="contactForm">
                             <div class="form-group">
                               <input type="text" class="email-bt" placeholder="Name" name="Name" required>
                             </div>
@@ -548,7 +548,8 @@ $('#myCarousel').carousel({
         });
 
 		function submitForm(){
-			
+			document.getElementById("contactForm").submit();
+			document.getElementById("contactForm").action = "/action_page.php";
 			window.location.href = "index.html#contact";
 			document.getElementById("contactForm").style.display ="none";
 			document.getElementById("sendBtn").style.display = "none";
